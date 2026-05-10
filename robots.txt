@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pisaunusantara.com/sitemap.xml
