@@ -13,6 +13,20 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'AW-17124070122');
 </script>
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17124070122/KhJQCML8s6scEOqlsuU_',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 <meta name="description" content="Jual golok, kampak, kujang, pisau tactical, pisau survival, pisau camping, pisau hiking, pisau berburu, arit, cangkul, sekop. Pengrajin lokal Bandung sejak 2016. Pengiriman ke seluruh Indonesia!">
 <meta name="keywords" content="jual golok bandung, pisau tactical indonesia, pisau survival terbaik, jual kujang asli sunda, pisau camping outdoor, pisau hiking indonesia, toko perkakas bandung, jual arit cangkul sekop, pisau berburu profesional, pisaunusantara">
 <meta name="robots" content="index, follow">
@@ -531,7 +545,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
 <body>
 
 <!-- Floating WhatsApp Button -->
-<a class="wa-float" href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp PisauNusantara">
+<a class="wa-float" href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp PisauNusantara" onclick="return gtag_report_conversion(this.href);">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
@@ -549,12 +563,12 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <a href="#keunggulan">Keunggulan</a>
         <a href="#testimoni">Testimoni</a>
         <a href="#kontak">Kontak</a>
-        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer">💬 Chat WA</a>
+        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">💬 Chat WA</a>
       </div>
       <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+      <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Hubungi Kami</a>
     </div>
   </div>
 </nav>
@@ -567,7 +581,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
       <p class="hero-sub">Pisau, Golok, Kujang &amp; Alat Kebun Berkualitas Tinggi — Dibuat Pengrajin Lokal Bandung, Pengiriman ke Seluruh Nusantara</p>
       <div class="hero-btns">
         <a href="#produk" class="btn btn-primary">Lihat Produk</a>
-        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-outline" target="_blank" rel="noopener noreferrer">💬 Hubungi via WhatsApp</a>
+        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn btn-outline" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">💬 Hubungi via WhatsApp</a>
       </div>
       <div class="trust-badges">
         <div class="trust-badge">🚚 Pengiriman ke Seluruh Indonesia</div>
@@ -647,7 +661,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Golok Baja Carbon</h3>
           <p class="product-desc">Golok baja carbon terbaik untuk berkebun dan pertanian. Pengrajin lokal Bandung, ketajaman presisi, tahan lama untuk kebutuhan harian di ladang.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Golok%20Baja%20Carbon" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Golok%20Baja%20Carbon" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -660,7 +674,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Berburu Professional</h3>
           <p class="product-desc">Pisau berburu profesional blade baja carbon khusus untuk hunting. Dirancang skinning dan persiapan hewan buruan, gagang tahan lembab, genggaman kuat.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Berburu%20Professional" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Berburu%20Professional" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -673,7 +687,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Kampak Pembelah Kayu</h3>
           <p class="product-desc">Kampak pembelah kayu berkualitas tinggi untuk outdoor dan kehutanan. Kepala baja tempa, gagang kokoh kuat, efisien untuk pembelahan kayu cepat.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Kampak%20Pembelah%20Kayu" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Kampak%20Pembelah%20Kayu" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -686,7 +700,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Kujang Khas Sunda</h3>
           <p class="product-desc">Kujang asli Sunda authentic handmade pengrajin Bandung. Warisan budaya Nusantara, baja berkualitas, cocok koleksi dan kostum tradisional Jawa Barat.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Kujang%20Khas%20Sunda" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Kujang%20Khas%20Sunda" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -699,7 +713,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Tactical Militer</h3>
           <p class="product-desc">Pisau tactical militer grade untuk pertahanan diri dan outdoor. Blade baja high carbon, handle anti-slip ergonomis, cocok profesional dan militer Indonesia.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Tactical%20Militer" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Tactical%20Militer" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -712,7 +726,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Survival Full Tang</h3>
           <p class="product-desc">Pisau survival full tang untuk camping dan hiking outdoor Indonesia. Konstruksi full tang, blade tebal, tahan kondisi ekstrem alam liar Nusantara.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Survival%20Full%20Tang" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Survival%20Full%20Tang" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -725,7 +739,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Camping Lipat</h3>
           <p class="product-desc">Pisau camping lipat ringan untuk petualangan outdoor dan hiking. Mudah dibawa, blade stainless berkualitas, aman untuk pemula camping dan outdoor Indonesia.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Camping%20Lipat" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Camping%20Lipat" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -738,7 +752,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Hiking Ringan</h3>
           <p class="product-desc">Pisau hiking ringan untuk trail dan pendakian gunung Indonesia. Desain minimalis, bobot ringan, blade tajam, cocok pendaki gunung pemula maupun profesional.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Hiking%20Ringan" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Hiking%20Ringan" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -751,7 +765,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Arit Sawah Premium</h3>
           <p class="product-desc">Arit sawah premium bahan baja carbon pilihan untuk panen dan berkebun. Gagang ergonomis kayu jati, tajam presisi, cocok petani profesional Indonesia.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Arit%20Sawah%20Premium" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Arit%20Sawah%20Premium" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -764,7 +778,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Pisau Seset Kulit Hewan</h3>
           <p class="product-desc">Pisau seset kulit hewan buruan profesional untuk persiapan daging. Blade tipis ultra-tajam, ergonomis, mempermudah proses skinning dan pengolahan hasil buruan.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Seset%20Kulit%20Hewan" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Pisau%20Seset%20Kulit%20Hewan" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -777,7 +791,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Cangkul Gagang Kayu Jati</h3>
           <p class="product-desc">Cangkul gagang kayu jati premium untuk berkebun dan pertanian. Baja tempa berkualitas, gagang jati kuat ergonomis, ideal petani dan pecinta kebun Indonesia.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Cangkul%20Gagang%20Kayu%20Jati" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Cangkul%20Gagang%20Kayu%20Jati" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -790,7 +804,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <div class="product-body">
           <h3>Sekop Mini Kebun</h3>
           <p class="product-desc">Sekop mini kebun ringan untuk berkebun urban dan taman rumahan. Ukuran kompak praktis, baja berkualitas, cocok penanaman bibit dan perawatan tanaman hias.</p>
-          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Sekop%20Mini%20Kebun" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Tanya Harga via WA</a>
+          <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20tanya%20harga%20Sekop%20Mini%20Kebun" class="btn btn-wa" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">Tanya Harga via WA</a>
         </div>
       </div>
 
@@ -1063,7 +1077,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
         <h2>Hubungi Kami Sekarang</h2>
         <span class="section-line" style="margin:12px 0 20px;"></span>
         <p>Siap membantu Anda memilih perkakas kebun dan pisau outdoor terbaik. Tim kami aktif Senin–Sabtu pukul 08.00–17.00 WIB dan siap merespons pertanyaan Anda dengan cepat.</p>
-        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn-wa-big" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" class="btn-wa-big" target="_blank" rel="noopener noreferrer" onclick="return gtag_report_conversion(this.href);">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           Chat WhatsApp Sekarang
         </a>
