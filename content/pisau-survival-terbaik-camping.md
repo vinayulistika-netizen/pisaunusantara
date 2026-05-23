@@ -49,7 +49,7 @@ Ini adalah pilihan pengrajin pisau tradisional Nusantara, termasuk kami di Pisau
 - Tahan banting dan tidak mudah patah
 - Bisa dicustom kekerasan (hardness) sesuai kebutuhan
 
-Kekurangannya: lebih mudah berkarat jika tidak dirawat. Tapi ini mudah diatasi dengan oleskan minyak tipis setelah digunakan.
+Kekurangannya: lebih mudah berkarat jika tidak dirawat. Tapi ini mudah diatasi — lihat panduan lengkap [cara merawat pisau agar tidak berkarat](/blog/tips-merawat-pisau-agar-tidak-berkarat) yang sudah kami siapkan khusus.
 
 ### Baja Stainless Steel
 
@@ -122,6 +122,6 @@ Pisau yang dirawat dengan baik bisa bertahan puluhan tahun:
 
 Pisau survival terbaik adalah yang sesuai dengan kebutuhan dan penggunaan Anda. Prioritaskan konstruksi full tang, baja karbon berkualitas, dan handle yang nyaman di tangan Anda sendiri. Kalau bisa, pegang langsung sebelum membeli — setiap tangan punya ukuran dan preferensi berbeda.
 
-Untuk pisau buatan tangan dari pengrajin lokal Bandung dengan kualitas yang bisa Anda andalkan di alam liar, [hubungi kami via WhatsApp](https://wa.me/6282115186138) atau kunjungi halaman produk kami.
+Untuk pisau buatan tangan dari pengrajin lokal Bandung dengan kualitas yang bisa Anda andalkan di alam liar, [hubungi kami via WhatsApp](https://wa.me/6282115186138) atau kunjungi [halaman produk kami](/#produk).
 
 *Dibuat dengan cinta di Bandung oleh pengrajin lokal sejak 2016.*
