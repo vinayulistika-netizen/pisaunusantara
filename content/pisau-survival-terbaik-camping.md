@@ -21,10 +21,12 @@ faq:
   - question: "Apakah pisau survival boleh dibawa hiking?"
     answer: "Boleh, selama digunakan untuk keperluan outdoor yang sah. Simpan dalam sarung (sheath) saat tidak digunakan, dan patuhi peraturan setempat terkait membawa senjata tajam."
 relatedPosts:
-  - slug: "cara-merawat-pisau-baja-carbon"
-    title: "Cara Merawat Pisau Baja Carbon agar Tidak Berkarat"
-  - slug: "golok-vs-parang-mana-lebih-baik"
-    title: "Golok vs Parang: Mana yang Lebih Baik untuk Hiking?"
+  - slug: "tips-merawat-pisau-agar-tidak-berkarat"
+    title: "7 Tips Merawat Pisau Agar Tidak Berkarat dan Tetap Tajam"
+  - slug: "perbedaan-pisau-tactical-dan-pisau-survival"
+    title: "Perbedaan Pisau Tactical dan Pisau Survival"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
 ---
 
 Memilih pisau survival yang tepat adalah keputusan penting bagi setiap pecinta alam. Pisau yang salah bisa merepotkan saat kondisi darurat di hutan atau pegunungan. Panduan ini membantu Anda memahami apa yang perlu diperhatikan sebelum membeli.
