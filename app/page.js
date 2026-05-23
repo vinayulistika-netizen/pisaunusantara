@@ -149,6 +149,7 @@ export default function HomePage() {
               <a href="#keunggulan">Keunggulan</a>
               <a href="#testimoni">Testimoni</a>
               <a href="#kontak">Kontak</a>
+              <a href="/blog">Artikel</a>
               <a href={WA_URL} className="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>💬 Chat WA</a>
             </div>
             <button className="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
