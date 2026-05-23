@@ -114,7 +114,7 @@ Gunakan batu asah (whetstone) dengan grit yang sesuai — mulai dari grit 400-60
 
 Setelah memotong bahan yang mengandung asam tinggi (lemon, tomat, cuka, bawang), segera bersihkan pisau karena **asam mempercepat oksidasi** secara signifikan. Hal yang sama berlaku setelah memotong daging atau ikan.
 
-Untuk pisau outdoor yang digunakan di alam terbuka, bersihkan dari sisa tanah, getah pohon, atau darah hewan sesegera mungkin setelah penggunaan.
+Untuk [pisau outdoor](/blog/pisau-survival-terbaik-camping) yang digunakan di alam terbuka, bersihkan dari sisa tanah, getah pohon, atau darah hewan sesegera mungkin setelah penggunaan.
 
 ## Cara Menghilangkan Karat yang Sudah Terlanjur Muncul
 
@@ -136,4 +136,4 @@ Jika karat sudah muncul, jangan panik. Atasi segera sebelum menyebar:
 
 Merawat pisau agar tidak berkarat pada dasarnya hanya butuh **3 kebiasaan sederhana**: selalu keringkan setelah digunakan, olesi minyak secara berkala, dan simpan di tempat kering. Dengan perawatan yang benar, pisau berkualitas bisa bertahan puluhan tahun.
 
-Jika Anda mencari pisau yang dibuat dengan material berkualitas dan tahan lama, pisau buatan pengrajin lokal PisauNusantara hadir dengan pilihan baja yang tepat sesuai kebutuhan — dari pisau dapur, pisau camping, hingga pisau tactical — semua dengan garansi kualitas pengerjaan.
+Jika Anda mencari pisau yang dibuat dengan material berkualitas dan tahan lama, pisau buatan pengrajin lokal PisauNusantara hadir dengan pilihan baja yang tepat sesuai kebutuhan — dari pisau dapur, [pisau camping](/blog/pisau-survival-terbaik-camping), hingga pisau tactical. Lihat [koleksi lengkap pisau kami](/#produk) dan temukan yang paling sesuai kebutuhan Anda.
