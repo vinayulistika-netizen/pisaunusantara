@@ -86,7 +86,7 @@ export default function HomePage() {
       </a>
 
       {/* Navbar */}
-      <nav id="navbar" role="navigation" aria-label="Menu utama">
+      <nav id="navbar" role="navigation" aria-label="Menu utama" onClick={() => {}}>
         <div className="container">
           <div className="nav-inner">
             <a href="#hero" className="nav-logo" aria-label="PisauNusantara Beranda">
@@ -107,6 +107,7 @@ export default function HomePage() {
               aria-label="Buka menu"
               aria-expanded={menuOpen ? 'true' : 'false'}
               onClick={toggleMenu}
+              onTouchEnd={(e) => { e.preventDefault(); setMenuOpen(p => !p) }}
             >
               <span></span><span></span><span></span>
             </button>
