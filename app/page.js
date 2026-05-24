@@ -34,17 +34,6 @@ export default function HomePage() {
       })
     })
 
-    // Fade-up animation
-    const fadeObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible')
-          fadeObserver.unobserve(entry.target)
-        }
-      })
-    }, { threshold: 0.05 })
-    document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el))
-
     // Counter animation
     function formatNum(n, target) {
       const floored = Math.floor(n)
@@ -289,7 +278,7 @@ export default function HomePage() {
       <section id="tentang" className="section section-alt">
         <div className="container">
           <div className="about-wrap">
-            <div className="about-text fade-up">
+            <div className="about-text">
               <h2>Tentang PisauNusantara</h2>
               <span className="section-line" style={{margin:'12px 0 20px'}}></span>
               <p>PisauNusantara adalah toko perkakas kebun dan pisau outdoor Indonesia terpercaya yang berdiri sejak 2016 di Jl. Raya Bojongsoang No.85, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40288.</p>
@@ -304,7 +293,7 @@ export default function HomePage() {
                 { number: '0+', target: '10000', label: 'Pelanggan Puas' },
                 { number: '0', target: '34', label: 'Provinsi Terjangkau' },
               ].map((s, i) => (
-                <div key={i} className="stat-item fade-up">
+                <div key={i} className="stat-item">
                   {s.badge && <div className="stat-badge">{s.badge}</div>}
                   <div className="stat-number">
                     <span className="counter" data-target={s.target} data-start={s.start || '0'}>0</span>
