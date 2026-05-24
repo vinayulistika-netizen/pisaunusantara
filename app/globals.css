@@ -85,7 +85,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
 .nav-menu a:hover { color: var(--orange); }
 .nav-cta { margin-left: 8px; }
 .nav-cta-mobile { display: none; }
-.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; border: none; background: transparent; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 12px 10px; border: none; background: transparent; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--orange); border-radius: 2px; transition: var(--transition); }
 .hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .hamburger.active span:nth-child(2) { opacity: 0; transform: scaleX(0); }

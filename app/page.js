@@ -34,33 +34,6 @@ export default function HomePage() {
       })
     })
 
-    // Counter animation
-    function formatNum(n, target) {
-      const floored = Math.floor(n)
-      return target >= 1000 ? floored.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.') : floored.toString()
-    }
-    function runCounter(el) {
-      const target = parseInt(el.dataset.target, 10)
-      const start = parseInt(el.dataset.start || '0', 10)
-      const frames = Math.round(1800 / (1000 / 60))
-      let frame = 0
-      const timer = setInterval(() => {
-        frame++
-        const eased = 1 - Math.pow(1 - frame / frames, 3)
-        el.textContent = formatNum(start + (target - start) * eased, target)
-        if (frame >= frames) { el.textContent = formatNum(target, target); clearInterval(timer) }
-      }, 1000 / 60)
-    }
-    const counterObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && !entry.target.dataset.counted) {
-          entry.target.dataset.counted = '1'
-          runCounter(entry.target)
-        }
-      })
-    }, { threshold: 0.6 })
-    document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el))
-
     // FAQ Accordion
     document.querySelectorAll('.faq-q').forEach(q => {
       q.addEventListener('click', () => {
@@ -288,17 +261,14 @@ export default function HomePage() {
             </div>
             <div className="about-stats">
               {[
-                { badge: 'Sejak', number: '2016', start: '0', target: '2016', label: 'Tahun Berdiri' },
-                { number: '0+', target: '93', label: 'Produk Tersedia' },
-                { number: '0+', target: '10000', label: 'Pelanggan Puas' },
-                { number: '0', target: '34', label: 'Provinsi Terjangkau' },
+                { badge: 'Sejak', display: '2016', label: 'Tahun Berdiri' },
+                { display: '93+', label: 'Produk Tersedia' },
+                { display: '10.000+', label: 'Pelanggan Puas' },
+                { display: '34+', label: 'Provinsi Terjangkau' },
               ].map((s, i) => (
                 <div key={i} className="stat-item">
                   {s.badge && <div className="stat-badge">{s.badge}</div>}
-                  <div className="stat-number">
-                    <span className="counter" data-target={s.target} data-start={s.start || '0'}>0</span>
-                    {s.target !== '2016' && '+'}
-                  </div>
+                  <div className="stat-number">{s.display}</div>
                   <div className="stat-label">{s.label}</div>
                 </div>
               ))}
