@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 const WA_URL = 'https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda'
 
@@ -12,6 +12,7 @@ function trackConversion() {
 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const hamburgerRef = useRef(null)
 
   const closeMenu = () => setMenuOpen(false)
   const toggleMenu = () => setMenuOpen(prev => !prev)
@@ -21,6 +22,14 @@ export default function HomePage() {
     const navbar = document.getElementById('navbar')
     const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 60)
     window.addEventListener('scroll', onScroll, { passive: true })
+
+    // Native touchstart untuk hamburger — bypass React event delegation iOS Safari
+    const btn = hamburgerRef.current
+    const handleTouch = (e) => {
+      e.preventDefault()
+      setMenuOpen(p => !p)
+    }
+    if (btn) btn.addEventListener('touchstart', handleTouch, { passive: false })
 
     // FAQ Accordion
     document.querySelectorAll('.faq-q').forEach(q => {
@@ -39,7 +48,10 @@ export default function HomePage() {
       })
     })
 
-    return () => window.removeEventListener('scroll', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      if (btn) btn.removeEventListener('touchstart', handleTouch)
+    }
   }, [])
 
   return (
@@ -103,11 +115,11 @@ export default function HomePage() {
               <a href={WA_URL} className="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>💬 Chat WA</a>
             </div>
             <button
+              ref={hamburgerRef}
               className={`hamburger${menuOpen ? ' active' : ''}`}
               aria-label="Buka menu"
               aria-expanded={menuOpen ? 'true' : 'false'}
               onClick={toggleMenu}
-              onTouchEnd={(e) => { e.preventDefault(); setMenuOpen(p => !p) }}
             >
               <span></span><span></span><span></span>
             </button>
