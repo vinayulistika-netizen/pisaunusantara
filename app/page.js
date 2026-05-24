@@ -188,7 +188,7 @@ export default function HomePage() {
             <p>Koleksi lengkap alat kebun, pisau outdoor, dan senjata tradisional berkualitas dari pengrajin lokal terbaik</p>
           </div>
           <div className="cat-grid">
-            <div className="cat-card fade-up">
+            <div className="cat-card">
               <div className="cat-icon">🪓</div>
               <h3>Alat Kebun &amp; Pertanian</h3>
               <ul className="cat-products">
@@ -196,7 +196,7 @@ export default function HomePage() {
               </ul>
               <a href="#produk" className="btn btn-dark btn-sm">Lihat Detail</a>
             </div>
-            <div className="cat-card fade-up">
+            <div className="cat-card">
               <div className="cat-icon">🏕️</div>
               <h3>Pisau Outdoor &amp; Survival</h3>
               <ul className="cat-products">
@@ -205,7 +205,7 @@ export default function HomePage() {
               </ul>
               <a href="#produk" className="btn btn-dark btn-sm">Lihat Detail</a>
             </div>
-            <div className="cat-card fade-up">
+            <div className="cat-card">
               <div className="cat-icon">
                 <img src="/images/icon-kujang.webp" alt="ikon kujang koleksi budaya nusantara" className="cat-icon-img" loading="lazy" width={60} height={60} />
               </div>
@@ -242,7 +242,7 @@ export default function HomePage() {
               { img: 'cangkul-gagang-kayu-jati', alt: 'cangkul gagang kayu jati premium untuk berkebun dan pertanian Indonesia — PisauNusantara', name: 'Cangkul Gagang Kayu Jati', desc: 'Cangkul gagang kayu jati premium untuk berkebun dan pertanian. Baja tempa berkualitas, gagang jati kuat ergonomis, ideal petani dan pecinta kebun Indonesia.', badge: 'terlaris', waText: 'Cangkul%20Gagang%20Kayu%20Jati' },
               { img: 'sekop-mini-kebun', alt: 'sekop mini kebun ringan untuk berkebun urban dan taman rumahan — PisauNusantara', name: 'Sekop Mini Kebun', desc: 'Sekop mini kebun ringan untuk berkebun urban dan taman rumahan. Ukuran kompak praktis, baja berkualitas, cocok penanaman bibit dan perawatan tanaman hias.', badge: 'baru', waText: 'Sekop%20Mini%20Kebun' },
             ].map((p) => (
-              <div key={p.img} className="product-card fade-up">
+              <div key={p.img} className="product-card">
                 <div className="product-img">
                   <img src={`/images/${p.img}.webp`} alt={p.alt} width={400} height={300} />
                   <span className={`badge badge-${p.badge}`}>{p.badge === 'terlaris' ? 'Terlaris' : p.badge === 'baru' ? 'Baru' : 'Stok Terbatas'}</span>
