@@ -98,7 +98,7 @@ export default function HomePage() {
       </a>
 
       {/* Navbar */}
-      <nav id="navbar" role="navigation" aria-label="Menu utama" onClick={() => {}}>
+      <nav id="navbar" role="navigation" aria-label="Menu utama">
         <div className="container">
           <div className="nav-inner">
             <a href="#hero" className="nav-logo" aria-label="PisauNusantara Beranda">
@@ -114,15 +114,17 @@ export default function HomePage() {
               <a href="/blog" onClick={closeMenu}>Artikel</a>
               <a href={WA_URL} className="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>💬 Chat WA</a>
             </div>
-            <button
+            <a
               ref={hamburgerRef}
+              href="#"
+              role="button"
               className={`hamburger${menuOpen ? ' active' : ''}`}
               aria-label="Buka menu"
               aria-expanded={menuOpen ? 'true' : 'false'}
-              onClick={toggleMenu}
+              onClick={(e) => { e.preventDefault(); toggleMenu() }}
             >
               <span></span><span></span><span></span>
-            </button>
+            </a>
             <a href={WA_URL} className="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>Hubungi Kami</a>
           </div>
         </div>
