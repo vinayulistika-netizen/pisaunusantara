@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const WA_URL = 'https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda'
 
@@ -11,28 +11,16 @@ function trackConversion() {
 }
 
 export default function HomePage() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const closeMenu = () => setMenuOpen(false)
+  const toggleMenu = () => setMenuOpen(prev => !prev)
+
   useEffect(() => {
     // Navbar scroll effect
     const navbar = document.getElementById('navbar')
     const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 60)
     window.addEventListener('scroll', onScroll, { passive: true })
-
-    // Hamburger menu
-    const hamburger = document.getElementById('hamburger')
-    const navMenu = document.getElementById('navMenu')
-    const onHamburger = () => {
-      const isOpen = navMenu.classList.toggle('open')
-      hamburger.classList.toggle('active', isOpen)
-      hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false')
-    }
-    hamburger.addEventListener('click', onHamburger)
-    navMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navMenu.classList.remove('open')
-        hamburger.classList.remove('active')
-        hamburger.setAttribute('aria-expanded', 'false')
-      })
-    })
 
     // FAQ Accordion
     document.querySelectorAll('.faq-q').forEach(q => {
@@ -104,17 +92,22 @@ export default function HomePage() {
             <a href="#hero" className="nav-logo" aria-label="PisauNusantara Beranda">
               <img src="/images/logo.webp" alt="PisauNusantara — Sahabat Berkebun Pilihan Anda" className="nav-logo-img" width={80} height={80} fetchPriority="high" />
             </a>
-            <div className="nav-menu" id="navMenu">
-              <a href="#hero">Beranda</a>
-              <a href="#produk">Produk</a>
-              <a href="#tentang">Tentang Kami</a>
-              <a href="#keunggulan">Keunggulan</a>
-              <a href="#testimoni">Testimoni</a>
-              <a href="#kontak">Kontak</a>
-              <a href="/blog">Artikel</a>
+            <div className={`nav-menu${menuOpen ? ' open' : ''}`}>
+              <a href="#hero" onClick={closeMenu}>Beranda</a>
+              <a href="#produk" onClick={closeMenu}>Produk</a>
+              <a href="#tentang" onClick={closeMenu}>Tentang Kami</a>
+              <a href="#keunggulan" onClick={closeMenu}>Keunggulan</a>
+              <a href="#testimoni" onClick={closeMenu}>Testimoni</a>
+              <a href="#kontak" onClick={closeMenu}>Kontak</a>
+              <a href="/blog" onClick={closeMenu}>Artikel</a>
               <a href={WA_URL} className="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>💬 Chat WA</a>
             </div>
-            <button className="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+            <button
+              className={`hamburger${menuOpen ? ' active' : ''}`}
+              aria-label="Buka menu"
+              aria-expanded={menuOpen ? 'true' : 'false'}
+              onClick={toggleMenu}
+            >
               <span></span><span></span><span></span>
             </button>
             <a href={WA_URL} className="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>Hubungi Kami</a>
