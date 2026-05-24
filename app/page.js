@@ -42,7 +42,7 @@ export default function HomePage() {
           fadeObserver.unobserve(entry.target)
         }
       })
-    }, { threshold: 0.12 })
+    }, { threshold: 0.05 })
     document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el))
 
     // Counter animation
@@ -244,7 +244,7 @@ export default function HomePage() {
             ].map((p) => (
               <div key={p.img} className="product-card fade-up">
                 <div className="product-img">
-                  <img src={`/images/${p.img}.webp`} alt={p.alt} loading="lazy" width={400} height={300} />
+                  <img src={`/images/${p.img}.webp`} alt={p.alt} width={400} height={300} />
                   <span className={`badge badge-${p.badge}`}>{p.badge === 'terlaris' ? 'Terlaris' : p.badge === 'baru' ? 'Baru' : 'Stok Terbatas'}</span>
                 </div>
                 <div className="product-body">
