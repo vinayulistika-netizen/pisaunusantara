@@ -275,7 +275,7 @@ export default function HomePage() {
               { icon: '🚚', title: 'Pengiriman Cepat Seluruh Indonesia', desc: 'Bermitra dengan ekspedisi terpercaya — JNE, J&T, Sicepat — memastikan produk sampai ke 34 provinsi dengan aman.' },
               { icon: '🎨', title: 'Desain Kearifan Lokal Nusantara', desc: 'Setiap produk menggabungkan estetika budaya Nusantara dengan fungsi modern, menjadi kebanggaan tersendiri bagi penggunanya.' },
             ].map((f) => (
-              <div key={f.title} className="feature-item fade-up">
+              <div key={f.title} className="feature-item">
                 <span className="feature-emoji">{f.icon}</span>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
@@ -328,10 +328,10 @@ export default function HomePage() {
           </div>
           <div className="city-grid">
             {['Jakarta','Surabaya','Bandung','Medan','Makassar','Semarang','Yogyakarta','Palembang','Balikpapan','Denpasar','Manado','Pontianak'].map(city => (
-              <div key={city} className="city-item fade-up">📍 {city}</div>
+              <div key={city} className="city-item">📍 {city}</div>
             ))}
           </div>
-          <p className="shipping-note fade-up">&quot;Setiap bilah lahir dari tangan yang sama yang telah menempa selama puluhan tahun. Inilah yang membedakan warisan dari sekadar perkakas.&quot;</p>
+          <p className="shipping-note">&quot;Setiap bilah lahir dari tangan yang sama yang telah menempa selama puluhan tahun. Inilah yang membedakan warisan dari sekadar perkakas.&quot;</p>
         </div>
       </section>
 
@@ -351,7 +351,7 @@ export default function HomePage() {
               { img: 'avatar-darmono-agus', alt: 'Darmono Agus', product: 'Cangkul Gagang Kayu Jati', text: 'Cangkul Gagang Kayu Jati-nya sangat memuaskan! Gagang kayunya halus tidak menyakiti tangan, dan cangkulnya berat-ringan pas untuk berkebun di rumah. Harga juga sangat worth it!', name: 'Darmono Agus', city: 'Jakarta, DKI Jakarta' },
               { img: 'avatar-deni-firmansyah', alt: 'Deni Firmansyah', product: 'Pisau Camping Lipat', text: 'Pesan dari Makassar ke Bandung, barang datang dalam 4 hari. Pisau Camping Lipat-nya compact dan tajam, perfect untuk saya yang sering camping di Sulawesi. Terima kasih PisauNusantara!', name: 'Deni Firmansyah', city: 'Makassar, Sulawesi Selatan' },
             ].map((t) => (
-              <div key={t.name} className="testi-card fade-up">
+              <div key={t.name} className="testi-card">
                 <img src={`/images/${t.img}.webp`} className="testi-avatar" alt={t.alt} loading="lazy" width={48} height={48} />
                 <div className="stars">★★★★★</div>
                 <div className="testi-product">{t.product}</div>
@@ -385,7 +385,7 @@ export default function HomePage() {
               { q: 'Apakah ada garansi untuk produk kujang dan pisau berburu?', a: 'Semua produk PisauNusantara dilengkapi garansi kualitas. Jika produk mengalami cacat produksi, kami siap mengganti atau memperbaiki. Kepuasan pelanggan adalah prioritas utama kami sejak 2016.' },
               { q: 'Bisa pesan custom ukuran atau desain khusus untuk pisau?', a: 'Ya, kami melayani pemesanan custom pisau dengan ukuran, desain, atau ukiran khusus. Tersedia untuk pisau survival, pisau berburu, golok, dan kujang. Hubungi kami via WhatsApp untuk diskusi.' },
             ].map((f) => (
-              <div key={f.q} className="faq-item fade-up">
+              <div key={f.q} className="faq-item">
                 <div className="faq-q" role="button" aria-expanded="false">
                   <span>{f.q}</span>
                   <span className="faq-icon">+</span>
@@ -403,7 +403,7 @@ export default function HomePage() {
       <section id="kontak" className="section">
         <div className="container">
           <div className="contact-grid">
-            <div className="contact-left fade-up">
+            <div className="contact-left">
               <h2>Hubungi Kami Sekarang</h2>
               <span className="section-line" style={{margin:'12px 0 20px'}}></span>
               <p>Siap membantu Anda memilih perkakas kebun dan pisau outdoor terbaik. Tim kami aktif Senin–Sabtu pukul 08.00–17.00 WIB.</p>
@@ -414,7 +414,7 @@ export default function HomePage() {
                 Chat WhatsApp Sekarang
               </a>
             </div>
-            <div className="contact-right fade-up">
+            <div className="contact-right">
               <h3>Informasi Kontak</h3>
               <div className="contact-item"><span className="c-icon">📱</span><div><div className="c-label">WhatsApp</div><div className="c-val">+62 821-1518-6138</div></div></div>
               <div className="contact-item"><span className="c-icon">📧</span><div><div className="c-label">Email</div><div className="c-val">info@pisaunusantara.com</div></div></div>
