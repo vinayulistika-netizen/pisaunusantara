@@ -8,8 +8,6 @@ const WA_URL =
 
 export default function Navbar({ alwaysDark = false }) {
   const navRef = useRef(null)
-  const menuRef = useRef(null)
-  const hamburgerRef = useRef(null)
 
   useEffect(() => {
     const nav = navRef.current
@@ -26,67 +24,57 @@ export default function Navbar({ alwaysDark = false }) {
     }
   }, [alwaysDark])
 
-  function toggleMenu() {
-    const isOpen = menuRef.current?.classList.toggle('open')
-    hamburgerRef.current?.setAttribute('aria-expanded', isOpen ? 'true' : 'false')
-  }
-
-  function closeMenu() {
-    menuRef.current?.classList.remove('open')
-    hamburgerRef.current?.setAttribute('aria-expanded', 'false')
-  }
-
   return (
-    <nav id="navbar" ref={navRef} role="navigation" aria-label="Menu utama">
-      <div className="container">
-        <div className="nav-inner">
-          <a href="/" className="nav-logo" aria-label="PisauNusantara Beranda">
-            <img
-              src="/images/logo.webp"
-              alt="PisauNusantara"
-              className="nav-logo-img"
-              width={80}
-              height={80}
-            />
-          </a>
-          <div className="nav-menu" ref={menuRef}>
-            <a href="/#produk" onClick={closeMenu}>Produk</a>
-            <a href="/#keunggulan" onClick={closeMenu}>Keunggulan</a>
-            <a href="/#tentang" onClick={closeMenu}>Tentang</a>
-            <Link href="/blog" onClick={closeMenu}>Artikel</Link>
-            <a href="/#kontak" onClick={closeMenu}>Kontak</a>
+    <>
+      {/* Pure CSS hamburger toggle — bypasses React event system on iOS Safari */}
+      <input type="checkbox" id="nav-toggle" className="nav-toggle-input" />
+      <nav id="navbar" ref={navRef} role="navigation" aria-label="Menu utama">
+        <div className="container">
+          <div className="nav-inner">
+            <a href="/" className="nav-logo" aria-label="PisauNusantara Beranda">
+              <img
+                src="/images/logo.webp"
+                alt="PisauNusantara"
+                className="nav-logo-img"
+                width={80}
+                height={80}
+              />
+            </a>
+            <div className="nav-menu">
+              <a href="/#produk">Produk</a>
+              <a href="/#keunggulan">Keunggulan</a>
+              <a href="/#tentang">Tentang</a>
+              <Link href="/blog">Artikel</Link>
+              <a href="/#kontak">Kontak</a>
+              <a
+                href={WA_URL}
+                className="btn btn-wa btn-sm nav-cta-mobile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                💬 Chat WA
+              </a>
+            </div>
+            <label
+              htmlFor="nav-toggle"
+              className="hamburger"
+              aria-label="Buka menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
             <a
               href={WA_URL}
-              className="btn btn-wa btn-sm nav-cta-mobile"
+              className="btn btn-primary btn-sm nav-cta"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={closeMenu}
             >
-              💬 Chat WA
+              Pesan Sekarang
             </a>
           </div>
-          <button
-            className="hamburger"
-            ref={hamburgerRef}
-            onClick={toggleMenu}
-            aria-label="Buka menu"
-            aria-expanded="false"
-            type="button"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <a
-            href={WA_URL}
-            className="btn btn-primary btn-sm nav-cta"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Pesan Sekarang
-          </a>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   )
 }
