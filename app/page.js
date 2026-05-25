@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useRef } from 'react'
+import { useEffect } from 'react'
 
 const WA_URL = 'https://wa.me/6282115186138?text=Halo%20PisauNusantara%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda'
 
@@ -11,25 +11,17 @@ function trackConversion() {
 }
 
 export default function HomePage() {
-  const [menuOpen, setMenuOpen] = useState(false)
-  const hamburgerRef = useRef(null)
-
-  const closeMenu = () => setMenuOpen(false)
-  const toggleMenu = () => setMenuOpen(prev => !prev)
-
   useEffect(() => {
     // Navbar scroll effect
     const navbar = document.getElementById('navbar')
     const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 60)
     window.addEventListener('scroll', onScroll, { passive: true })
 
-    // Native touchstart untuk hamburger — bypass React event delegation iOS Safari
-    const btn = hamburgerRef.current
-    const handleTouch = (e) => {
-      e.preventDefault()
-      setMenuOpen(p => !p)
-    }
-    if (btn) btn.addEventListener('touchstart', handleTouch, { passive: false })
+    // Close nav menu when any nav link is clicked
+    const toggle = document.getElementById('nav-toggle')
+    const navLinks = document.querySelectorAll('.nav-menu a')
+    const closeNav = () => { if (toggle) toggle.checked = false }
+    navLinks.forEach(link => link.addEventListener('click', closeNav))
 
     // FAQ Accordion
     document.querySelectorAll('.faq-q').forEach(q => {
@@ -50,7 +42,7 @@ export default function HomePage() {
 
     return () => {
       window.removeEventListener('scroll', onScroll)
-      if (btn) btn.removeEventListener('touchstart', handleTouch)
+      navLinks.forEach(link => link.removeEventListener('click', closeNav))
     }
   }, [])
 
@@ -97,6 +89,9 @@ export default function HomePage() {
         </svg>
       </a>
 
+      {/* Pure CSS hamburger toggle — bypasses React event system on iOS Safari */}
+      <input type="checkbox" id="nav-toggle" className="nav-toggle-input" />
+
       {/* Navbar */}
       <nav id="navbar" role="navigation" aria-label="Menu utama">
         <div className="container">
@@ -104,27 +99,19 @@ export default function HomePage() {
             <a href="#hero" className="nav-logo" aria-label="PisauNusantara Beranda">
               <img src="/images/logo.webp" alt="PisauNusantara — Sahabat Berkebun Pilihan Anda" className="nav-logo-img" width={80} height={80} fetchPriority="high" />
             </a>
-            <div className={`nav-menu${menuOpen ? ' open' : ''}`}>
-              <a href="#hero" onClick={closeMenu}>Beranda</a>
-              <a href="#produk" onClick={closeMenu}>Produk</a>
-              <a href="#tentang" onClick={closeMenu}>Tentang Kami</a>
-              <a href="#keunggulan" onClick={closeMenu}>Keunggulan</a>
-              <a href="#testimoni" onClick={closeMenu}>Testimoni</a>
-              <a href="#kontak" onClick={closeMenu}>Kontak</a>
-              <a href="/blog" onClick={closeMenu}>Artikel</a>
+            <div className="nav-menu">
+              <a href="#hero">Beranda</a>
+              <a href="#produk">Produk</a>
+              <a href="#tentang">Tentang Kami</a>
+              <a href="#keunggulan">Keunggulan</a>
+              <a href="#testimoni">Testimoni</a>
+              <a href="#kontak">Kontak</a>
+              <a href="/blog">Artikel</a>
               <a href={WA_URL} className="btn btn-wa btn-sm nav-cta-mobile" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>💬 Chat WA</a>
             </div>
-            <a
-              ref={hamburgerRef}
-              href="#"
-              role="button"
-              className={`hamburger${menuOpen ? ' active' : ''}`}
-              aria-label="Buka menu"
-              aria-expanded={menuOpen ? 'true' : 'false'}
-              onClick={(e) => { e.preventDefault(); toggleMenu() }}
-            >
+            <label htmlFor="nav-toggle" className="hamburger" aria-label="Buka menu">
               <span></span><span></span><span></span>
-            </a>
+            </label>
             <a href={WA_URL} className="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer" onClick={trackConversion}>Hubungi Kami</a>
           </div>
         </div>

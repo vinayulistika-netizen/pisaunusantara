@@ -86,11 +86,10 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
 .nav-menu a:hover { color: var(--orange); }
 .nav-cta { margin-left: 8px; }
 .nav-cta-mobile { display: none; }
+/* Hidden checkbox — pure CSS hamburger toggle, no JS needed for open/close */
+.nav-toggle-input { position: absolute; left: -9999px; top: -9999px; width: 0; height: 0; opacity: 0; pointer-events: none; }
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 12px 14px 12px 10px; border: none; background: transparent; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; touch-action: manipulation; -webkit-tap-highlight-color: transparent; position: relative; z-index: 2; pointer-events: auto; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--orange); border-radius: 2px; transition: var(--transition); }
-.hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.hamburger.active span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-.hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 /* ===== HERO ===== */
 #hero {
@@ -328,7 +327,10 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
     padding: 16px 20px; gap: 4px; border-top: 1px solid rgba(255,255,255,0.1);
     z-index: 1001;
   }
-  .nav-menu.open { display: flex; }
+  #nav-toggle:checked ~ #navbar .nav-menu { display: flex; }
+  #nav-toggle:checked ~ #navbar .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  #nav-toggle:checked ~ #navbar .hamburger span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  #nav-toggle:checked ~ #navbar .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
   .nav-menu a { padding: 10px 14px; border-radius: 4px; display: block; }
   .hamburger { display: flex; }
   .nav-cta { display: none; }
