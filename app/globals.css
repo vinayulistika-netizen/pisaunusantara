@@ -12,26 +12,27 @@
   --shadow-hover: 0 8px 30px rgba(92,51,23,0.22);
   --radius: 8px;
   --transition: all 0.3s ease;
-  --font-head: var(--font-head), 'Oswald', sans-serif;
-  --font-body: var(--font-body), 'Open Sans', sans-serif;
-  --font-blog-head: var(--font-blog-head), 'Playfair Display', Georgia, serif;
-  --font-blog-body: var(--font-blog-body), 'Merriweather', Georgia, serif;
+  --font-head: var(--font-inter), 'Inter', sans-serif;
+  --font-body: var(--font-inter), 'Inter', sans-serif;
+  --font-blog-head: var(--font-inter), 'Inter', sans-serif;
+  --font-blog-body: var(--font-inter), 'Inter', sans-serif;
 }
 
 /* ===== RESET ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: var(--font-blog-body); color: var(--text); background: var(--white); line-height: 1.6; }
+body { font-family: var(--font-inter), 'Inter', sans-serif; font-size: 1.0625rem; color: var(--text); background: var(--white); line-height: 1.7; }
 html { overflow-x: hidden; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 img { max-width: 100%; height: auto; display: block; }
 
 /* ===== TYPOGRAPHY ===== */
-h1, h2, h3, h4 { font-family: var(--font-blog-body); line-height: 1.2; }
-h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; }
-h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 600; }
-h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
+h1, h2, h3, h4 { font-family: var(--font-inter), 'Inter', sans-serif; line-height: 1.15; letter-spacing: -0.02em; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 700; }
+h3 { font-size: clamp(1.05rem, 2.5vw, 1.35rem); font-weight: 600; }
+h4 { font-size: 1rem; font-weight: 600; }
 
 /* ===== LAYOUT ===== */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -82,7 +83,7 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
 .nav-logo-img { height: 80px; width: auto; object-fit: contain; mix-blend-mode: screen; }
 .footer-logo-img { height: 100px; width: auto; object-fit: contain; margin-bottom: 12px; mix-blend-mode: screen; }
 .nav-menu { flex: 1; display: flex; align-items: center; justify-content: center; gap: 4px; }
-.nav-menu a { color: rgba(255,255,255,0.88); font-family: var(--font-head); font-size: 1.05rem; font-weight: 700; padding: 6px 11px; border-radius: 4px; transition: var(--transition); letter-spacing: 0.4px; }
+.nav-menu a { color: rgba(255,255,255,0.88); font-family: var(--font-inter), 'Inter', sans-serif; font-size: 0.9rem; font-weight: 600; padding: 6px 11px; border-radius: 4px; transition: var(--transition); letter-spacing: 0.01em; }
 .nav-menu a:hover { color: var(--orange); }
 .nav-cta { margin-left: 8px; }
 .nav-cta-mobile { display: none; }
@@ -498,16 +499,16 @@ h3 { font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; }
 
 /* Article content prose */
 .article-content { min-width: 0; }
-.article-content h2 { color: var(--brown); margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--light); }
-.article-content h3 { color: var(--text); margin: 1.5rem 0 0.75rem; }
-.article-content p { margin-bottom: 1.2rem; line-height: 1.8; }
-.article-content ul, .article-content ol { margin: 0 0 1.2rem 1.5rem; }
+.article-content h2 { color: var(--brown); margin: 2.2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--light); font-weight: 700; letter-spacing: -0.01em; }
+.article-content h3 { color: var(--text); margin: 1.75rem 0 0.75rem; font-weight: 600; }
+.article-content p { margin-bottom: 1.3rem; line-height: 1.85; font-size: 1.0625rem; }
+.article-content ul, .article-content ol { margin: 0 0 1.3rem 1.5rem; }
 .article-content ul { list-style: disc; }
 .article-content ol { list-style: decimal; }
-.article-content li { margin-bottom: 0.4rem; line-height: 1.7; }
-.article-content strong { color: var(--brown); }
+.article-content li { margin-bottom: 0.5rem; line-height: 1.75; font-size: 1.0625rem; }
+.article-content strong { color: var(--brown); font-weight: 700; }
 .article-content a { color: var(--orange); text-decoration: underline; }
-.article-content blockquote { border-left: 4px solid var(--orange); padding: 1rem 1.5rem; background: var(--light); border-radius: 0 8px 8px 0; margin: 1.5rem 0; font-style: italic; }
+.article-content blockquote { border-left: 4px solid var(--orange); padding: 1rem 1.5rem; background: var(--light); border-radius: 0 8px 8px 0; margin: 1.5rem 0; font-style: normal; font-weight: 500; color: var(--brown); }
 
 /* FAQ inside article */
 .article-faq { margin: 2.5rem 0; }
