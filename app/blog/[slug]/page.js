@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import FaqAccordion from '../../components/FaqAccordion'
@@ -190,7 +191,17 @@ export default async function ArticlePage({ params }) {
         <div className="container">
           <div className="article-layout">
             <article className="article-content">
-              <MDXRemote source={content} />
+              <MDXRemote
+                source={content}
+                options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+                components={{
+                  table: (props) => (
+                    <div className="table-wrap">
+                      <table {...props} />
+                    </div>
+                  ),
+                }}
+              />
 
               {frontmatter.faq?.length > 0 && (
                 <section className="article-faq">
