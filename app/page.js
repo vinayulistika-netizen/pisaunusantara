@@ -53,7 +53,7 @@ export default function HomePage() {
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "Store"],
             "@id": "https://pisaunusantara.com/#business",
             "name": "PisauNusantara",
             "description": "Toko perkakas kebun dan pisau outdoor terpercaya di Indonesia sejak 2016.",
@@ -74,7 +74,7 @@ export default function HomePage() {
             },
             "openingHoursSpecification": [{
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Saturday","Sunday"],
               "opens": "08:00", "closes": "17:00"
             }]
           }
