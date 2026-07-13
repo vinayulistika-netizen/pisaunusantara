@@ -36,6 +36,8 @@ faq:
   - question: "Bentuk golok yang bagus itu seperti apa?"
     answer: "Bentuk golok yang bagus memiliki bilah yang rata dan tidak bergelombang saat dilihat dari samping, geometri tepi convex atau flat grind, serta distribusi berat yang sesuai fungsi. Untuk tebas, bentuk yang melebar dan berat ke depan lebih efektif; untuk sembelih, bentuk ramping, lurus, dan seimbang lebih presisi."
 relatedPosts:
+  - slug: "golok-tradisional-nusantara"
+    title: "Golok Tradisional Nusantara: Ciomas, Cibatu, dan Sunda Buhun"
   - slug: "tips-merawat-pisau-agar-tidak-berkarat"
     title: "7 Tips Merawat Pisau Agar Tidak Berkarat dan Tetap Tajam"
   - slug: "perbedaan-pisau-tactical-dan-pisau-survival"
@@ -168,4 +170,4 @@ Untuk panduan perawatan lengkap, baca artikel kami tentang [cara merawat pisau a
 
 Memilih golok yang bagus tidak harus rumit jika Anda tahu apa yang harus dilihat. Prioritaskan **kualitas baja, ukuran yang sesuai kebutuhan, dan gagang yang kuat**. Hindari tergiur harga murah yang menggunakan baja rendah — golok berkualitas adalah investasi jangka panjang.
 
-PisauNusantara memproduksi golok baja karbon buatan tangan dari Bandung, dengan pilihan ukuran dan gagang sesuai kebutuhan Anda — mulai dari golok kebun, golok camping, hingga golok tradisional. Lihat [koleksi golok kami](/#produk) atau konsultasi langsung via WhatsApp untuk rekomendasi yang tepat.
+PisauNusantara memproduksi golok baja karbon buatan tangan dari Bandung, dengan pilihan ukuran dan gagang sesuai kebutuhan Anda — mulai dari golok kebun, golok camping, hingga [golok tradisional Nusantara](/blog/golok-tradisional-nusantara). Lihat [koleksi golok kami](/#produk) atau konsultasi langsung via WhatsApp untuk rekomendasi yang tepat.
