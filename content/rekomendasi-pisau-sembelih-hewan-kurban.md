@@ -61,7 +61,7 @@ Ukuran pisau sangat mempengaruhi efektivitas penyembelihan:
 | Kambing / Domba | 15–22 cm | Leher lebih kecil, pisau tidak perlu terlalu panjang |
 | Unta | 30–40 cm | Ukuran lebih besar, butuh pisau panjang dan kuat |
 
-Selain panjang, perhatikan **ketebalan bilah**: minimal 3–4 mm agar tidak bengkok saat digunakan dengan tekanan penuh pada leher hewan besar seperti sapi.
+Selain panjang, perhatikan **ketebalan bilah**: minimal 3–4 mm agar tidak bengkok saat digunakan dengan tekanan penuh pada leher hewan besar seperti sapi. Untuk sapi berukuran besar, banyak jagal memilih golok sembelih yang tebal dan kuat — jika ini pilihan Anda, ikuti panduan [cara memilih golok yang bagus](/blog/cara-memilih-golok-yang-bagus) untuk memastikan jenis baja dan ukurannya tepat.
 
 ## Jenis Baja Terbaik untuk Pisau Sembelih
 

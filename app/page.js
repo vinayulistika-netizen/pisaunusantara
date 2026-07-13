@@ -251,6 +251,7 @@ export default function HomePage() {
               <span className="section-line" style={{margin:'12px 0 20px'}}></span>
               <p>PisauNusantara adalah toko perkakas kebun dan pisau outdoor Indonesia terpercaya yang berdiri sejak 2016 di Jl. Raya Bojongsoang No.85, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40288.</p>
               <p>Sebagai toko pisau terpercaya Bandung, kami menyediakan berbagai produk mulai dari golok, arit, cangkul, sekop, hingga pisau survival Indonesia berkelas, pisau tactical, pisau camping, dan kujang asli Sunda yang autentik.</p>
+              <p>Baru pertama kali membeli golok? Simak dulu panduan kami tentang <a href="/blog/cara-memilih-golok-yang-bagus">cara memilih golok yang bagus</a> agar tidak salah pilih jenis baja, ukuran, dan gagang.</p>
               <p>Apa yang membedakan PisauNusantara adalah komitmen kami menggabungkan kearifan lokal Nusantara dengan kebutuhan modern. Pengrajin kami mewarisi ilmu tempa turun-temurun, menghasilkan pisau outdoor Indonesia dan perkakas kebun yang tajam, tahan lama, sekaligus bernilai estetika tinggi.</p>
               <p>Dalam satu dekade, PisauNusantara telah melayani lebih dari 10.000 pelanggan puas di 34 provinsi Indonesia — dari Sabang hingga Merauke.</p>
             </div>

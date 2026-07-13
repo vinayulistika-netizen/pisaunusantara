@@ -29,6 +29,8 @@ faq:
 relatedPosts:
   - slug: "pisau-survival-terbaik-camping"
     title: "5 Pisau Survival Terbaik untuk Camping dan Hiking"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
 ---
 
 Pisau yang berkarat bukan hanya masalah estetika — karat bisa merusak bilah secara permanen, membahayakan kesehatan, dan membuat pisau kehilangan ketajamannya jauh lebih cepat. Kabar baiknya, merawat pisau agar tidak berkarat sebenarnya **tidak sulit dan tidak butuh biaya mahal**.
@@ -45,7 +47,7 @@ Faktor yang mempercepat karat:
 - Jarang dibersihkan setelah digunakan memotong bahan asam (jeruk, tomat, cuka)
 - Tidak diolesi pelindung setelah digunakan lama
 
-Pisau dengan bahan **baja karbon (carbon steel)** lebih rentan berkarat dibanding baja stainless, namun bisa lebih tajam dan lebih mudah diasah. Keduanya tetap butuh perawatan rutin.
+Pisau dengan bahan **baja karbon (carbon steel)** lebih rentan berkarat dibanding baja stainless, namun bisa lebih tajam dan lebih mudah diasah. Keduanya tetap butuh perawatan rutin. Perkakas seperti golok umumnya juga dibuat dari baja karbon, jadi semua tips di sini berlaku untuknya — jika Anda belum punya, pelajari dulu [cara memilih golok yang bagus](/blog/cara-memilih-golok-yang-bagus) agar mendapat baja yang tepat sejak awal.
 
 ## 7 Tips Merawat Pisau Agar Tidak Berkarat
 
