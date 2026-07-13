@@ -1,6 +1,6 @@
 ---
 title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal Bandung"
-description: "Panduan cara memilih golok yang bagus dan berkualitas. Ketahui ciri golok baja karbon terbaik, ukuran ideal, dan tips agar tidak salah beli dari pengrajin lokal."
+description: "Panduan cara memilih golok yang bagus: jenis baja karbon terbaik, model & bentuk golok sesuai fungsi, ukuran ideal, dan kisaran harga golok berkualitas dari pengrajin lokal Bandung."
 date: "2026-05-23"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
@@ -16,6 +16,10 @@ tags:
   - "jual golok bandung"
   - "golok untuk berkebun"
   - "golok camping"
+  - "model golok yang bagus"
+  - "bentuk golok yang bagus"
+  - "model golok sembelih"
+  - "harga golok"
 faq:
   - question: "Baja apa yang paling bagus untuk golok?"
     answer: "Baja karbon tinggi seperti baja per (spring steel) atau baja karbon 1075/1095 adalah pilihan terbaik untuk golok. Baja ini kuat, tahan banting, mudah diasah, dan bisa mempertahankan ketajaman lebih lama. Baja stainless kurang direkomendasikan karena lebih sulit diasah dan rentan patah saat digunakan untuk tugas berat."
@@ -27,6 +31,10 @@ faq:
     answer: "Golok buatan pengrajin lokal berkualitas berkisar Rp 150.000–450.000 tergantung ukuran, jenis baja, dan kualitas gagang. Golok murah di bawah Rp 100.000 umumnya menggunakan baja rendah yang cepat tumpul dan sulit diasah. Investasi golok yang baik jauh lebih hemat jangka panjang."
   - question: "Apakah golok buatan lokal lebih baik dari golok pabrik impor?"
     answer: "Untuk kebutuhan sehari-hari dan outdoor, golok buatan pengrajin lokal sering kali lebih unggul. Pengrajin lokal bisa menyesuaikan ketebalan bilah, geometri tepi, dan kekerasan baja sesuai penggunaan spesifik. Selain itu, gagang kayu lokal (jati, trembesi) lebih tahan terhadap iklim tropis Indonesia dibanding gagang plastik pada produk pabrik massal."
+  - question: "Model golok apa yang paling bagus?"
+    answer: "Tidak ada satu model golok yang paling bagus untuk semua orang — model golok yang bagus adalah yang bentuknya sesuai fungsi. Golok tebas (melebar ke ujung) terbaik untuk menebas semak dan bambu, golok sembelih (bilah tipis dan ramping) terbaik untuk menyembelih, golok kebun (ukuran sedang, serbaguna) cocok untuk berkebun harian, sedangkan golok camping yang ringkas dan full-tang ideal untuk outdoor."
+  - question: "Bentuk golok yang bagus itu seperti apa?"
+    answer: "Bentuk golok yang bagus memiliki bilah yang rata dan tidak bergelombang saat dilihat dari samping, geometri tepi convex atau flat grind, serta distribusi berat yang sesuai fungsi. Untuk tebas, bentuk yang melebar dan berat ke depan lebih efektif; untuk sembelih, bentuk ramping, lurus, dan seimbang lebih presisi."
 relatedPosts:
   - slug: "tips-merawat-pisau-agar-tidak-berkarat"
     title: "7 Tips Merawat Pisau Agar Tidak Berkarat dan Tetap Tajam"
@@ -125,6 +133,30 @@ Ini sering diabaikan, padahal sangat penting. Golok buatan pengrajin yang bertan
 - Bersedia menunjukkan proses pembuatan atau rekam jejak pengerjaan
 
 Golok dari pasar atau toko perkakas tanpa informasi bahan sering menggunakan baja kualitas rendah yang tidak tahan lama.
+
+## Model dan Bentuk Golok yang Bagus Sesuai Fungsi
+
+Salah satu kesalahan paling umum saat membeli golok adalah memilih **model** yang salah untuk kebutuhannya. Tidak ada satu "model golok yang bagus" yang cocok untuk semua orang — **model golok yang bagus adalah yang bentuknya sesuai fungsi Anda**. Berikut model dan bentuk golok yang paling umum:
+
+- **Golok tebas** — bilah melebar dan berat ke bagian ujung. Bentuk ini memberi momentum kuat, ideal untuk menebas semak, ranting, dan bambu.
+- **Golok sembelih (golsem)** — bilah lebih tipis, ramping, dan sangat tajam, dengan bentuk lurus atau sedikit melengkung. **Model golok sembelih** yang baik memprioritaskan ketajaman dan presisi, bukan bobot, agar penyembelihan bersih dalam satu tarikan.
+- **Golok kebun (serbaguna)** — ukuran dan bobot sedang, bentuk paling seimbang. Cocok untuk berkebun dan pekerjaan harian di ladang.
+- **Golok dapur / cacah** — bilah lebih lebar dan berat untuk mencacah daging dan tulang.
+- **Golok camping / bushcraft** — ukuran ringkas dan full-tang, mudah dibawa untuk aktivitas outdoor.
+
+Prinsipnya: **bentuk golok yang bagus** selalu punya bilah rata (tidak bergelombang saat dilihat dari samping), geometri tepi convex atau flat grind, dan distribusi berat yang sesuai fungsi. Tentukan dulu untuk apa golok akan dipakai, baru pilih modelnya.
+
+## Harga Golok: Kisaran Wajar Sesuai Kualitas
+
+Banyak pembeli bingung soal **harga golok** — kenapa ada yang Rp 80.000 dan ada yang Rp 500.000? Perbedaannya ada di jenis baja, kualitas gagang, dan proses pembuatan. Berikut kisaran harga golok yang wajar:
+
+| Kelas | Kisaran Harga | Keterangan |
+|---|---|---|
+| Golok murah pasaran | < Rp 100.000 | Baja rendah, cepat tumpul, sulit diasah — hindari untuk pemakaian serius |
+| Golok pengrajin standar | Rp 150.000 – 300.000 | Baja karbon/baja per, gagang kayu keras — pilihan terbaik untuk mayoritas kebutuhan |
+| Golok pengrajin premium | Rp 300.000 – 500.000+ | Baja pilihan, gagang ukir, finishing rapi, sering custom sesuai pesanan |
+
+Golok baja karbon buatan pengrajin di kisaran **Rp 150.000–300.000** umumnya sudah sangat mumpuni untuk berkebun maupun outdoor. Harga yang terlalu murah biasanya menjadi mahal dalam jangka panjang karena cepat rusak dan tidak bisa diasah dengan baik.
 
 ## Cara Merawat Golok agar Tahan Lama
 
