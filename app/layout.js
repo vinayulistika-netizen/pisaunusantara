@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: 'Jual Golok, Pisau Tactical & Kujang Bandung | Pisau Nusantara — Pengrajin Lokal Sejak 2016',
-  description: 'Jual golok, kampak, kujang, pisau tactical, pisau survival, pisau camping, pisau hiking, pisau berburu, arit, cangkul, sekop. Pengrajin lokal Bandung sejak 2016. Pengiriman ke seluruh Indonesia!',
+  description: 'Jual golok, pisau tactical, survival & kujang buatan pengrajin Bandung sejak 2016. Golok baja carbon untuk kebun & outdoor, bisa custom. Kirim seluruh Indonesia.',
   keywords: 'jual golok bandung, pisau tactical indonesia, pisau survival terbaik, jual kujang asli sunda, pisau camping outdoor, pisau hiking indonesia, toko perkakas bandung, jual arit cangkul sekop, pisau berburu profesional, pisaunusantara',
   robots: 'index, follow',
   icons: {
@@ -21,7 +21,7 @@ export const metadata = {
   alternates: { canonical: 'https://pisaunusantara.com' },
   openGraph: {
     title: 'PisauNusantara — Toko Perkakas Kebun & Pisau Outdoor Terpercaya di Indonesia',
-    description: 'Jual golok, kampak, kujang, pisau tactical, pisau survival, pisau camping, pisau hiking, pisau berburu, arit, cangkul, sekop. Pengrajin lokal Bandung sejak 2016.',
+    description: 'Jual golok, pisau tactical, survival & kujang buatan pengrajin Bandung sejak 2016. Golok baja carbon untuk kebun & outdoor, bisa custom. Kirim seluruh Indonesia.',
     images: [{ url: 'https://pisaunusantara.com/og-image.jpg' }],
     url: 'https://pisaunusantara.com',
     type: 'website',
