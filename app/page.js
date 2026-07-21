@@ -46,6 +46,18 @@ export default function HomePage() {
     }
   }, [])
 
+  const faqs = [
+    { q: 'Apakah golok dan kampak PisauNusantara terbuat dari baja berkualitas?', a: 'Ya, seluruh produk PisauNusantara menggunakan baja carbon grade tinggi yang dipilih oleh pengrajin berpengalaman kami di Bandung. Baja kami diproses dengan teknik tempa tradisional yang menghasilkan ketajaman optimal dan daya tahan jangka panjang.' },
+    { q: 'Berapa harga golok di PisauNusantara?', a: 'Harga golok kami bervariasi tergantung jenis baja, ukuran bilah, serta tingkat kerumitan gagang dan sarungnya. Karena setiap golok kami tempa tangan langsung di Bandung tanpa perantara, harganya transparan dan sepadan dengan kualitasnya. Untuk harga golok terbaru sesuai kebutuhan Anda — golok kebun, golok tebas, hingga golok sembelih — silakan chat via WhatsApp di +62 821-1518-6138, tim kami balas cepat.' },
+    { q: 'Apakah PisauNusantara menjual sarung golok?', a: 'Ya, kami menyediakan sarung golok (sarangka) dari kayu keras untuk melindungi bilah golok Anda. Sarung golok bisa dipesan sesuai ukuran, dengan pilihan polos maupun ukir tradisional — terpisah maupun sepaket dengan golok pilihan Anda. Hubungi kami via WhatsApp untuk ketersediaan dan harga.' },
+    { q: 'Apakah bisa pesan atau ganti gagang golok?', a: 'Bisa. Gagang golok kami dibuat dari kayu keras pilihan yang kuat sekaligus nyaman digenggam. Anda bisa memesan golok lengkap dengan gagang sesuai selera — pilih jenis kayu dan model gagang, polos maupun berukir. Untuk kebutuhan penggantian gagang golok yang sudah rusak atau oblak, silakan konsultasikan dulu via WhatsApp agar kami bantu sesuaikan.' },
+    { q: 'Bagaimana cara memesan pisau survival atau pisau tactical?', a: 'Pemesanan dilakukan melalui WhatsApp di nomor +62 821-1518-6138. Cukup kirim pesan dengan menyebutkan nama produk yang diminati, dan tim kami akan merespons dengan cepat.' },
+    { q: 'Apakah tersedia pisau camping dan hiking yang cocok untuk pemula?', a: 'Tentu! Kami menyediakan Pisau Camping Lipat dan Pisau Hiking Ringan yang dirancang ergonomis, ringan, dan mudah digunakan untuk pemula outdoor.' },
+    { q: 'Berapa lama pengiriman ke luar Jawa seperti Kalimantan dan Sulawesi?', a: 'Pengiriman ke Kalimantan dan Sulawesi umumnya 3–7 hari kerja. Kami bermitra dengan JNE, J&T, dan Sicepat untuk memastikan produk sampai aman.' },
+    { q: 'Apakah ada garansi untuk produk kujang dan pisau berburu?', a: 'Semua produk PisauNusantara dilengkapi garansi kualitas. Jika produk mengalami cacat produksi, kami siap mengganti atau memperbaiki. Kepuasan pelanggan adalah prioritas utama kami sejak 2016.' },
+    { q: 'Bisa pesan custom ukuran atau desain khusus untuk pisau?', a: 'Ya, kami melayani pemesanan custom pisau dengan ukuran, desain, atau ukiran khusus. Tersedia untuk pisau survival, pisau berburu, golok, dan kujang. Hubungi kami via WhatsApp untuk diskusi.' },
+  ]
+
   return (
     <>
       {/* Schema Markup */}
@@ -77,6 +89,15 @@ export default function HomePage() {
               "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Saturday","Sunday"],
               "opens": "08:00", "closes": "17:00"
             }]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://pisaunusantara.com/#faq",
+            "mainEntity": faqs.map((f) => ({
+              "@type": "Question",
+              "name": f.q,
+              "acceptedAnswer": { "@type": "Answer", "text": f.a }
+            }))
           }
         ]
       }) }} />
@@ -182,7 +203,7 @@ export default function HomePage() {
           <div className="section-header">
             <h2>Produk Unggulan Kami</h2>
             <span className="section-line"></span>
-            <p>Pilihan terbaik dari pengrajin lokal Bandung — baja berkualitas, desain kearifan lokal Nusantara</p>
+            <p>Pilihan terbaik dari pengrajin lokal Bandung — baja berkualitas, desain kearifan lokal Nusantara. Cek harga golok, kampak, hingga kujang langsung via WhatsApp.</p>
           </div>
           <div className="product-grid">
             {[
@@ -191,6 +212,7 @@ export default function HomePage() {
               { img: 'pisau-seset-kulit-hewan', alt: 'golok sembelih sapi dan hewan kurban baja carbon tajam — PisauNusantara', name: 'Golok Sembelih Sapi', desc: 'Golok sembelih sapi dan hewan kurban dengan bilah baja carbon sangat tajam. Panjang ideal untuk sapi dan kerbau, bilah rata sesuai syariat, kuat dan presisi.', badge: 'terlaris', waText: 'Golok%20Sembelih%20Sapi' },
               { img: 'pisau-seset-kulit-hewan', alt: 'golok daging untuk cacah daging dan tulang di dapur — PisauNusantara', name: 'Golok Daging & Cacah Tulang', desc: 'Golok daging untuk cacah daging dan tulang, cocok untuk dapur maupun jagal. Bilah lebar dan berat, baja carbon tajam, mampu memotong tulang tanpa cepat tumpul.', badge: 'baru', waText: 'Golok%20Daging%20%26%20Cacah%20Tulang' },
               { img: 'golok-baja-carbon', alt: 'sarung golok kayu untuk golok tradisional — PisauNusantara', name: 'Sarung Golok Kayu', desc: 'Sarung golok (sarangka) dari kayu keras untuk melindungi bilah golok Anda. Bisa dipesan sesuai ukuran golok, tersedia pilihan polos maupun ukir tradisional.', badge: 'baru', waText: 'Sarung%20Golok%20Kayu' },
+              { img: 'golok-baja-carbon', alt: 'gagang golok kayu keras pengganti untuk golok tradisional — PisauNusantara', name: 'Gagang Golok Kayu', desc: 'Gagang golok dari kayu keras pilihan — kuat, awet, dan nyaman digenggam. Bisa dipesan untuk golok baru maupun penggantian gagang golok lama yang sudah rusak atau oblak. Pilihan jenis kayu, model polos maupun ukir tradisional.', badge: 'baru', waText: 'Gagang%20Golok%20Kayu' },
               { img: 'pisau-berburu-professional', alt: 'pisau berburu profesional blade baja carbon untuk hunting Indonesia — PisauNusantara', name: 'Pisau Berburu Professional', desc: 'Pisau berburu profesional blade baja carbon khusus untuk hunting. Dirancang skinning dan persiapan hewan buruan, gagang tahan lembab, genggaman kuat.', badge: 'terlaris', waText: 'Pisau%20Berburu%20Professional' },
               { img: 'kampak-pembelah-kayu', alt: 'kampak pembelah kayu berkualitas untuk outdoor dan kehutanan — PisauNusantara', name: 'Kampak Pembelah Kayu', desc: 'Kampak pembelah kayu berkualitas tinggi untuk outdoor dan kehutanan. Kepala baja tempa, gagang kokoh kuat, efisien untuk pembelahan kayu cepat.', badge: 'terlaris', waText: 'Kampak%20Pembelah%20Kayu' },
               { img: 'kujang-khas-sunda', alt: 'kujang khas sunda authentic handmade — PisauNusantara', name: 'Kujang Khas Sunda', desc: 'Kujang asli Sunda authentic handmade pengrajin Bandung. Warisan budaya Nusantara, baja berkualitas, cocok koleksi dan kostum tradisional Jawa Barat.', badge: 'terlaris', waText: 'Kujang%20Khas%20Sunda' },
@@ -336,14 +358,7 @@ export default function HomePage() {
             <p>Temukan jawaban atas pertanyaan umum seputar produk dan layanan PisauNusantara</p>
           </div>
           <div className="faq-wrap">
-            {[
-              { q: 'Apakah golok dan kampak PisauNusantara terbuat dari baja berkualitas?', a: 'Ya, seluruh produk PisauNusantara menggunakan baja carbon grade tinggi yang dipilih oleh pengrajin berpengalaman kami di Bandung. Baja kami diproses dengan teknik tempa tradisional yang menghasilkan ketajaman optimal dan daya tahan jangka panjang.' },
-              { q: 'Bagaimana cara memesan pisau survival atau pisau tactical?', a: 'Pemesanan dilakukan melalui WhatsApp di nomor +62 821-1518-6138. Cukup kirim pesan dengan menyebutkan nama produk yang diminati, dan tim kami akan merespons dengan cepat.' },
-              { q: 'Apakah tersedia pisau camping dan hiking yang cocok untuk pemula?', a: 'Tentu! Kami menyediakan Pisau Camping Lipat dan Pisau Hiking Ringan yang dirancang ergonomis, ringan, dan mudah digunakan untuk pemula outdoor.' },
-              { q: 'Berapa lama pengiriman ke luar Jawa seperti Kalimantan dan Sulawesi?', a: 'Pengiriman ke Kalimantan dan Sulawesi umumnya 3–7 hari kerja. Kami bermitra dengan JNE, J&T, dan Sicepat untuk memastikan produk sampai aman.' },
-              { q: 'Apakah ada garansi untuk produk kujang dan pisau berburu?', a: 'Semua produk PisauNusantara dilengkapi garansi kualitas. Jika produk mengalami cacat produksi, kami siap mengganti atau memperbaiki. Kepuasan pelanggan adalah prioritas utama kami sejak 2016.' },
-              { q: 'Bisa pesan custom ukuran atau desain khusus untuk pisau?', a: 'Ya, kami melayani pemesanan custom pisau dengan ukuran, desain, atau ukiran khusus. Tersedia untuk pisau survival, pisau berburu, golok, dan kujang. Hubungi kami via WhatsApp untuk diskusi.' },
-            ].map((f) => (
+            {faqs.map((f) => (
               <div key={f.q} className="faq-item">
                 <div className="faq-q" role="button" aria-expanded="false">
                   <span>{f.q}</span>
