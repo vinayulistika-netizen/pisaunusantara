@@ -1,5 +1,6 @@
 ---
 title: "Golok Tradisional Nusantara: Mengenal Golok Betawi, Patimura & Sulangkar"
+metaTitle: "Golok Betawi, Patimura & Sulangkar: Ciri Khas dan Sejarahnya"
 description: "Kenali golok tradisional khas Nusantara — Golok Betawi yang gagah, Golok Patimura yang sarat sejarah Maluku, dan Golok Sulangkar warisan pandai besi. Cerita, ciri khas, dan makna di baliknya."
 date: "2026-07-21"
 author: "Tim PisauNusantara"

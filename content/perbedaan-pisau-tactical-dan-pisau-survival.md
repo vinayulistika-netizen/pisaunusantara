@@ -1,5 +1,6 @@
 ---
 title: "Perbedaan Pisau Tactical dan Pisau Survival: Mana yang Tepat untuk Anda?"
+metaTitle: "Perbedaan Pisau Tactical dan Pisau Survival — Mana Tepat?"
 description: "Bingung memilih antara pisau tactical dan pisau survival? Pelajari perbedaan fungsi, desain, dan material keduanya agar tidak salah beli."
 date: "2026-05-23"
 author: "Tim PisauNusantara"

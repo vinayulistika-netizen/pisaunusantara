@@ -1,5 +1,6 @@
 ---
 title: "Golok Tradisional Nusantara: Mengenal Golok Ciomas, Cibatu, dan Sunda Buhun"
+metaTitle: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
 description: "Mengenal golok tradisional Nusantara — dari golok Ciomas Banten, golok Cibatu Sukabumi, hingga golok Sunda buhun. Sejarah, ciri khas, dan warisan pandai besi lokal."
 date: "2026-07-13"
 author: "Tim PisauNusantara"

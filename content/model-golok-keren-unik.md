@@ -1,5 +1,6 @@
 ---
 title: "Model Golok Keren & Unik: Ciri Desain yang Bikin Golok Anda Beda dari yang Lain"
+metaTitle: "Model Golok Keren & Unik: Ciri Desain Golok yang Beda"
 description: "Cari model golok keren & unik? Kenali ciri desain golok paling keren — dari pamor bilah, ukiran gagang, sampai sarung berkarakter. Panduan memilih golok yang tampil beda dari pengrajin Bandung."
 date: "2026-07-21"
 author: "Tim PisauNusantara"
