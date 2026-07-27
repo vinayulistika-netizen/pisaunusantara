@@ -419,9 +419,10 @@ h4 { font-size: 1rem; font-weight: 600; }
 .blog-card { background: var(--white); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; transition: var(--transition); display: flex; flex-direction: column; }
 .blog-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-4px); }
 .blog-card-img-link { position: relative; display: block; overflow: hidden; height: 200px; flex-shrink: 0; }
-/* Bingkai mengikuti rasio 16:9 foto artikel supaya gambar tidak terpotong.
+/* Bingkai persegi mengikuti bentuk asli foto artikel (semua dipotret 1:1),
+   supaya gambar tampil utuh tanpa terpotong — sama seperti kartu produk.
    height: 200px di atas tetap dipertahankan sebagai cadangan untuk browser lama. */
-@supports (aspect-ratio: 1) { .blog-card-img-link { height: auto; aspect-ratio: 16 / 9; } }
+@supports (aspect-ratio: 1) { .blog-card-img-link { height: auto; aspect-ratio: 1 / 1; } }
 .blog-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
 .blog-card:hover .blog-card-img { transform: scale(1.05); }
 .blog-card-body { padding: 1.25rem 1.5rem 1.5rem; display: flex; flex-direction: column; flex: 1; }
@@ -644,7 +645,9 @@ h4 { font-size: 1rem; font-weight: 600; }
 @media (max-width: 1024px) {
   .blog-grid { grid-template-columns: repeat(2, 1fr); }
   .blog-featured-card { grid-template-columns: 1fr; }
+  /* Foto menumpuk di atas teks — pakai bingkai persegi agar foto tampil utuh. */
   .blog-featured-img-wrap { min-height: 240px; }
+  @supports (aspect-ratio: 1) { .blog-featured-img-wrap { min-height: 0; aspect-ratio: 1 / 1; } }
 }
 @media (max-width: 900px) {
   .article-layout { grid-template-columns: 1fr; }
