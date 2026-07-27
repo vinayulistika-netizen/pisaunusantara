@@ -227,7 +227,7 @@ export default function HomePage() {
             ].map((p) => (
               <div key={p.name} className="product-card">
                 <div className="product-img">
-                  <img src={`/images/${p.img}.webp`} alt={p.alt} width={400} height={300} />
+                  <img src={`/images/${p.img}.webp`} alt={p.alt} width={400} height={400} loading="lazy" decoding="async" />
                   <span className={`badge badge-${p.badge}`}>{p.badge === 'terlaris' ? 'Terlaris' : p.badge === 'baru' ? 'Baru' : 'Stok Terbatas'}</span>
                 </div>
                 <div className="product-body">
