@@ -2,6 +2,7 @@
 title: "Pisau Survival Terbaik untuk Camping & Hiking 2024 — Panduan Lengkap"
 description: "Panduan memilih pisau survival terbaik untuk camping dan hiking. Mulai dari jenis baja, handle, hingga rekomendasi pisau buatan pengrajin lokal Bandung."
 date: "2024-11-15"
+updated: "2026-07-27"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin & Ahli Perkakas Nusantara"
 category: "Pisau Survival"

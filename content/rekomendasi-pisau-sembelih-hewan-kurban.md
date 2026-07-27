@@ -2,6 +2,7 @@
 title: "Rekomendasi Pisau Sembelih Hewan Kurban yang Tajam dan Halal"
 description: "Panduan memilih pisau sembelih hewan kurban yang benar menurut syariat Islam. Ciri pisau sapi dan kambing kurban yang tajam, kuat, dan memenuhi syarat halal."
 date: "2026-05-23"
+updated: "2026-07-27"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
 category: "Pisau Dapur & Sembelih"

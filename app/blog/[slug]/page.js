@@ -58,7 +58,7 @@ export default async function ArticlePage({ params }) {
     description: frontmatter.description,
     image: frontmatter.image ? `https://pisaunusantara.com${frontmatter.image}` : undefined,
     datePublished: frontmatter.date,
-    dateModified: frontmatter.date,
+    dateModified: frontmatter.updated || frontmatter.date,
     author: {
       '@type': 'Person',
       name: frontmatter.author,

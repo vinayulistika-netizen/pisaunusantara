@@ -2,6 +2,7 @@
 title: "Kampak Camping Terbaik: Panduan Memilih untuk Kegiatan Outdoor"
 description: "Panduan lengkap memilih kampak camping terbaik untuk outdoor, hiking, dan bushcraft. Ketahui jenis, ukuran, material, dan tips merawat kampak agar tahan lama."
 date: "2026-05-23"
+updated: "2026-07-27"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
 category: "Alat Outdoor"

@@ -5,9 +5,11 @@ const BASE_URL = 'https://pisaunusantara.com'
 export default function sitemap() {
   const posts = getAllPosts()
 
+  // `updated` = tanggal artikel terakhir diperbarui (isi hanya kalau memang ada
+  // perubahan berarti). Kalau kosong, pakai tanggal terbit seperti semula.
   const articleUrls = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.frontmatter.date),
+    lastModified: new Date(post.frontmatter.updated || post.frontmatter.date),
     changeFrequency: 'monthly',
     priority: 0.8,
   }))
