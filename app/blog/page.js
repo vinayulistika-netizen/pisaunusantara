@@ -10,6 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Artikel & Tips Pisau Outdoor | Blog PisauNusantara',
     description: 'Tips dan panduan pisau outdoor dari pengrajin lokal Bandung sejak 2016.',
+    images: [{ url: 'https://pisaunusantara.com/og-image.jpg', width: 1200, height: 630 }],
     url: 'https://pisaunusantara.com/blog',
     type: 'website',
   },
