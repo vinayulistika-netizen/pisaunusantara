@@ -1,14 +1,13 @@
 ---
-title: "Golok Tradisional Nusantara: Mengenal Golok Betawi, Patimura & Sulangkar"
-metaTitle: "Golok Betawi, Patimura & Sulangkar: Ciri Khas dan Sejarahnya"
+title: "Golok Betawi, Patimura & Sulangkar: Ciri Khas dan Sejarahnya"
 description: "Kenali golok tradisional khas Nusantara — Golok Betawi yang gagah, Golok Patimura yang sarat sejarah Maluku, dan Golok Sulangkar warisan pandai besi. Cerita, ciri khas, dan makna di baliknya."
 metaDescription: "Kenali golok Betawi, golok Patimura, dan golok Sulangkar: ciri khas, sejarah, dan makna di balik tiga golok tradisional Nusantara ini."
 date: "2026-07-21"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
 category: "Golok Tradisional"
-image: "/images/golok-baja-carbon.webp"
-imageAlt: "Golok tradisional Nusantara — Betawi, Patimura, Sulangkar — tempa tangan"
+image: "/images/hero-bg.webp"
+imageAlt: "Golok tradisional bersarung kulit ukir buatan pengrajin lokal"
 canonical: "https://pisaunusantara.com/blog/golok-tradisional-betawi-patimura-sulangkar"
 tags:
   - "golok betawi"
