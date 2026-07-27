@@ -6,8 +6,8 @@ author: "Tim PisauNusantara"
 authorTitle: "Pengrajin & Ahli Perkakas Nusantara"
 category: "Pisau Survival"
 tags: ["pisau survival", "camping", "hiking", "pisau outdoor", "pisau full tang"]
-image: "/images/pisau-survival-full-tang.webp"
-imageAlt: "Pisau survival full tang terbaik untuk camping dan hiking"
+image: "/images/pisau-survival-rambo-camping.webp"
+imageAlt: "Pisau survival bilah bergerigi dengan gagang kayu dan sarung, untuk camping"
 canonical: "https://pisaunusantara.com/blog/pisau-survival-terbaik-camping"
 faq:
   - question: "Apa perbedaan pisau survival full tang dan rat tail tang?"
