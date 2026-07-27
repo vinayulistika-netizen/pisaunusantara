@@ -74,7 +74,7 @@ Pegang goloknya. Golok tebas yang bagus terasa **berat di depan** — bobotnya c
 Untuk menebas, **golok tebas bentuk parang** sering jadi favorit — bilah yang sedikit melengkung dan melebar di ujung, jadi tenaga terkumpul di titik hantam. Bentuk ini yang bikin sekali ayun langsung putus, bukan cuma menggores.
 
 ### 4. Gagang — yang sering dilupakan
-Bilah setajam apa pun percuma kalau gagangnya licin dan oblak. Pilih **gagang kayu keras** yang menempel kokoh dan nyaman digenggam basah maupun kering. Saat Anda mengayun bertenaga, gagang yang mantap itu soal keselamatan, bukan sekadar kenyamanan.
+Bilah setajam apa pun percuma kalau gagangnya licin dan oblak. Pilih **[gagang kayu keras](/blog/gagang-golok-kayu-terbaik)** yang menempel kokoh dan nyaman digenggam basah maupun kering. Saat Anda mengayun bertenaga, gagang yang mantap itu soal keselamatan, bukan sekadar kenyamanan.
 
 > Mau lebih dalam soal memilih baja, ukuran, dan model golok secara umum? Baca juga panduan lengkap kami di [Cara Memilih Golok yang Bagus](/blog/cara-memilih-golok-yang-bagus).
 

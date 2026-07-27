@@ -41,6 +41,8 @@ Karakteristik utama pisau survival yang baik:
 - **Bilah tebal minimal 4mm** — tahan untuk batoning (membelah kayu)
 - **Panjang bilah 10–15 cm** — keseimbangan antara kegunaan dan portabilitas
 
+Tapi pisau survival tetap punya batas. Untuk membelah kayu bakar berukuran besar, **[kampak camping](/blog/kampak-camping-terbaik-untuk-outdoor)** jauh lebih efisien dan aman daripada memaksakan bilah pisau.
+
 ## Jenis Baja Pisau Survival
 
 ### Baja Karbon Tinggi (High Carbon Steel)
@@ -122,7 +124,7 @@ Pisau yang dirawat dengan baik bisa bertahan puluhan tahun:
 
 ## Kesimpulan
 
-Pisau survival terbaik adalah yang sesuai dengan kebutuhan dan penggunaan Anda. Prioritaskan konstruksi full tang, baja karbon berkualitas, dan handle yang nyaman di tangan Anda sendiri. Kalau bisa, pegang langsung sebelum membeli — setiap tangan punya ukuran dan preferensi berbeda.
+Pisau survival terbaik adalah yang sesuai dengan kebutuhan dan penggunaan Anda. Prioritaskan konstruksi full tang, baja karbon berkualitas, dan handle yang nyaman di tangan Anda sendiri. Kalau bisa, pegang langsung sebelum membeli — setiap tangan punya ukuran dan preferensi berbeda. Kalau kegiatan Anda lebih banyak memancing, kebutuhannya beda lagi — **[pisau fillet ikan](/blog/pisau-fillet-ikan-terbaik-untuk-pemancing)** yang tipis dan lentur jauh lebih pas daripada bilah tebal survival.
 
 Untuk pisau buatan tangan dari pengrajin lokal Bandung dengan kualitas yang bisa Anda andalkan di alam liar, [hubungi kami via WhatsApp](https://wa.me/6282115186138) atau kunjungi [halaman produk kami](/#produk).
 

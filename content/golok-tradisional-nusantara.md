@@ -7,8 +7,8 @@ date: "2026-07-13"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
 category: "Budaya & Tradisi"
-image: "/images/parang-panjang-cibatu.webp"
-imageAlt: "Parang panjang khas Cibatu bersarung, golok tradisional Nusantara"
+image: "/images/parang-kuku-macan.webp"
+imageAlt: "Parang kuku macan bersarung kayu berukir, golok tradisional Nusantara"
 canonical: "https://pisaunusantara.com/blog/golok-tradisional-nusantara"
 tags:
   - "golok ciomas"
@@ -42,7 +42,7 @@ Sebagai pengrajin yang meneruskan tradisi tempa manual dari Bandung, kami ingin 
 
 ## Golok sebagai Senjata Tradisional Nusantara
 
-Golok adalah pisau besar berbilah tunggal yang menjadi perkakas serbaguna sekaligus **senjata tradisional** di banyak daerah Indonesia. Golok paling erat dikaitkan dengan budaya **Sunda (Jawa Barat)** dan **Betawi**, namun varian golok juga hidup di Banten, Bali, hingga daerah lain dengan ciri khas masing-masing.
+Golok adalah pisau besar berbilah tunggal yang menjadi perkakas serbaguna sekaligus **senjata tradisional** di banyak daerah Indonesia. Golok paling erat dikaitkan dengan budaya **Sunda (Jawa Barat)** dan **Betawi**, namun varian golok juga hidup di Banten, Bali, hingga daerah lain dengan ciri khas masing-masing — termasuk **[golok Betawi, Patimura, dan Sulangkar](/blog/golok-tradisional-betawi-patimura-sulangkar)** yang punya cerita sendiri.
 
 Fungsinya melampaui alat kerja. Dalam banyak tradisi, golok adalah simbol keberanian, kemandirian, dan penghubung antara manusia dengan tanah tempatnya hidup. Bentuk bilah, panjang, dan ukiran gagangnya sering mencerminkan asal daerah dan status pemiliknya.
 
