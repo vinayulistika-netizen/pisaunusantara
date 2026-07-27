@@ -6,7 +6,7 @@ date: "2026-07-21"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
 category: "Golok Tradisional"
-image: "/images/hero-bg.webp"
+image: "/images/golok-tradisional-betawi.webp"
 imageAlt: "Golok tradisional bersarung kulit ukir buatan pengrajin lokal"
 canonical: "https://pisaunusantara.com/blog/golok-tradisional-betawi-patimura-sulangkar"
 tags:
