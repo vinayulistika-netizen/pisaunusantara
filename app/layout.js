@@ -21,7 +21,7 @@ export const metadata = {
   alternates: { canonical: 'https://pisaunusantara.com' },
   openGraph: {
     title: 'PisauNusantara — Toko Perkakas Kebun & Pisau Outdoor Terpercaya di Indonesia',
-    description: 'Jual golok, pisau tactical, survival & kujang buatan pengrajin Bandung sejak 2016. Golok baja carbon untuk kebun & outdoor, bisa custom. Kirim seluruh Indonesia.',
+    description: 'Jual golok, pisau tactical, survival & kujang buatan pengrajin Bandung sejak 2016. Golok baja carbon kebun & outdoor, bisa custom, kirim se-Indonesia.',
     images: [{ url: 'https://pisaunusantara.com/og-image.jpg', width: 1200, height: 630 }],
     url: 'https://pisaunusantara.com',
     type: 'website',

@@ -2,6 +2,7 @@
 title: "Golok Tebas & Golok Kebun: Panduan Memilih Golok yang Tebasannya Bersih untuk Bambu & Kebun"
 metaTitle: "Golok Tebas & Golok Kebun: Panduan Memilih untuk Bambu & Kebun"
 description: "Cari golok tebas yang tajam untuk menebas bambu atau golok kebun untuk merapikan pekarangan? Simak cara memilih golok tebas & golok kebun dari baja, bobot, bentuk, sampai gagang — biar sekali ayun langsung putus."
+metaDescription: "Cara memilih golok tebas & golok kebun yang tajam untuk menebas bambu dan merapikan pekarangan: pilihan baja, bobot, bentuk bilah, sampai gagang."
 date: "2026-07-20"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"

@@ -18,15 +18,19 @@ export async function generateMetadata({ params }) {
   const { frontmatter } = post
   // metaTitle = judul pendek khusus untuk hasil Google (Google memotong ~60
   // karakter). frontmatter.title tetap dipakai apa adanya sebagai H1 di halaman.
+  // metaDescription = cuplikan pendek khusus Google (dipotong ~160 karakter).
+  // frontmatter.description tetap jadi paragraf pembuka artikel & ringkasan
+  // di kartu halaman /blog.
   const metaTitle = frontmatter.metaTitle || frontmatter.title
+  const metaDescription = frontmatter.metaDescription || frontmatter.description
   return {
     title: metaTitle,
-    description: frontmatter.description,
+    description: metaDescription,
     keywords: frontmatter.tags?.join(', '),
     alternates: { canonical: frontmatter.canonical || `https://pisaunusantara.com/blog/${slug}` },
     openGraph: {
       title: metaTitle,
-      description: frontmatter.description,
+      description: metaDescription,
       images: frontmatter.image ? [{ url: `https://pisaunusantara.com${frontmatter.image}` }] : [],
       url: `https://pisaunusantara.com/blog/${slug}`,
       type: 'article',

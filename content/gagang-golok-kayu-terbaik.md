@@ -2,6 +2,7 @@
 title: "Gagang Golok Kayu Terbaik: Jenis Kayu, Ciri Gagang Bagus & Cara Ganti Gagang Golok"
 metaTitle: "Gagang Golok Kayu Terbaik: Jenis Kayu & Cara Ganti Gagang Golok"
 description: "Panduan lengkap gagang golok — jenis kayu gagang golok terbaik, ciri gagang yang kuat dan nyaman, tanda gagang harus diganti, sampai cara pesan atau ganti gagang golok dari pengrajin Bandung."
+metaDescription: "Panduan gagang golok: jenis kayu gagang golok terbaik, ciri gagang kuat dan nyaman, sampai cara ganti gagang golok dari pengrajin Bandung."
 date: "2026-07-22"
 author: "Tim PisauNusantara"
 authorTitle: "Pengrajin Pisau Lokal Bandung"
