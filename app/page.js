@@ -47,6 +47,7 @@ export default function HomePage() {
   }, [])
 
   const faqs = [
+    { q: 'Apakah PisauNusantara menempa sendiri atau menjual produk orang lain?', a: 'Semua golok, pisau, dan parang kami tempa sendiri di bengkel kami di Bojongsoang, Kabupaten Bandung, sejak 2016 — bukan barang kulakan. Karena kami yang mengerjakan langsung, ukuran, jenis baja, dan model gagang bisa dipesan sesuai kebutuhan Anda.' },
     { q: 'Apakah golok dan kampak PisauNusantara terbuat dari baja berkualitas?', a: 'Ya, seluruh produk PisauNusantara menggunakan baja carbon grade tinggi yang dipilih oleh pengrajin berpengalaman kami di Bandung. Baja kami diproses dengan teknik tempa tradisional yang menghasilkan ketajaman optimal dan daya tahan jangka panjang.' },
     { q: 'Berapa harga golok di PisauNusantara?', a: 'Harga golok kami bervariasi tergantung jenis baja, ukuran bilah, serta tingkat kerumitan gagang dan sarungnya. Karena setiap golok kami tempa tangan langsung di Bandung tanpa perantara, harganya transparan dan sepadan dengan kualitasnya. Untuk harga golok terbaru sesuai kebutuhan Anda — golok kebun, golok tebas, hingga golok sembelih — silakan chat via WhatsApp di +62 821-1518-6138, tim kami balas cepat.' },
     { q: 'Apakah PisauNusantara menjual sarung golok?', a: 'Ya, kami menyediakan sarung golok (sarangka) dari kayu keras untuk melindungi bilah golok Anda. Sarung golok bisa dipesan sesuai ukuran, dengan pilihan polos maupun ukir tradisional — terpisah maupun sepaket dengan golok pilihan Anda. Hubungi kami via WhatsApp untuk ketersediaan dan harga.' },
@@ -278,7 +279,7 @@ export default function HomePage() {
               <p>PisauNusantara adalah toko perkakas kebun dan pisau outdoor Indonesia terpercaya yang berdiri sejak 2016 di Jl. Raya Bojongsoang No.85, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40288.</p>
               <p>Sebagai toko pisau terpercaya Bandung, kami menyediakan berbagai produk mulai dari golok, arit, cangkul, sekop, hingga pisau survival Indonesia berkelas, pisau tactical, pisau camping, dan kujang asli Sunda yang autentik.</p>
               <p>Baru pertama kali membeli golok? Simak dulu panduan kami tentang <a href="/blog/cara-memilih-golok-yang-bagus">cara memilih golok yang bagus</a> agar tidak salah pilih jenis baja, ukuran, dan gagang.</p>
-              <p>Apa yang membedakan PisauNusantara adalah komitmen kami menggabungkan kearifan lokal Nusantara dengan kebutuhan modern. Pengrajin kami mewarisi ilmu tempa turun-temurun, menghasilkan pisau outdoor Indonesia dan perkakas kebun yang tajam, tahan lama, sekaligus bernilai estetika tinggi.</p>
+              <p>Apa yang membedakan PisauNusantara adalah komitmen kami menggabungkan kearifan lokal Nusantara dengan kebutuhan modern. Sebagai pengrajin golok, pisau, dan parang di Bandung — semuanya kami tempa sendiri di bengkel Bojongsoang, bukan barang kulakan — kami mewarisi ilmu tempa turun-temurun, menghasilkan pisau outdoor Indonesia dan perkakas kebun yang tajam, tahan lama, sekaligus bernilai estetika tinggi.</p>
               <p>Dalam satu dekade, PisauNusantara telah melayani lebih dari 10.000 pelanggan puas di 34 provinsi Indonesia — dari Sabang hingga Merauke.</p>
             </div>
             <div className="about-stats">
