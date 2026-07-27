@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import FaqAccordion from '../../components/FaqAccordion'
-import { getAllSlugs, getPostBySlug } from '../../../lib/posts'
+import { getAllSlugs, getPostBySlug, resolveRelatedPosts } from '../../../lib/posts'
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }))
@@ -42,6 +42,7 @@ export default async function ArticlePage({ params }) {
   if (!post) notFound()
 
   const { frontmatter, content } = post
+  const relatedPosts = resolveRelatedPosts(frontmatter.relatedPosts)
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -251,11 +252,11 @@ export default async function ArticlePage({ params }) {
                 </div>
               )}
 
-              {frontmatter.relatedPosts?.length > 0 && (
+              {relatedPosts.length > 0 && (
                 <div className="sidebar-card">
                   <h3>Artikel Terkait</h3>
                   <ul className="related-list">
-                    {frontmatter.relatedPosts.map((rel) => (
+                    {relatedPosts.map((rel) => (
                       <li key={rel.slug}>
                         <Link href={`/blog/${rel.slug}`}>{rel.title}</Link>
                       </li>

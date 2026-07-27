@@ -26,9 +26,12 @@ faq:
   - question: "Bagaimana memilih model golok yang cocok untuk saya?"
     answer: "Mulai dari kegunaannya dulu — untuk berkebun, menebas, koleksi, atau pajangan. Setelah fungsi jelas, baru pilih desain (bentuk bilah, gagang, sarung) yang paling Anda suka. Fungsi dulu, gaya menyusul — biar golok kerennya juga benar-benar terpakai."
 relatedPosts:
-  - "cara-memilih-golok-yang-bagus"
-  - "golok-tradisional-nusantara"
-  - "golok-tebas-golok-kebun"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
+  - slug: "golok-tradisional-nusantara"
+    title: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
+  - slug: "golok-tebas-golok-kebun"
+    title: "Golok Tebas & Golok Kebun: Panduan Memilih Golok Penebas"
 ---
 
 Ada momen kecil yang mungkin pernah Anda alami. Anda sedang lihat-lihat golok — barisannya mengkilap semua, bentuknya mirip semua — lalu tiba-tiba **satu golok bikin mata Anda berhenti.** Bukan yang paling besar, bukan yang paling murah. Tapi ada sesuatu di dia: pola bilahnya, lekuk gagangnya, ukiran di sarungnya. Rasanya seperti golok itu punya "nyawa".

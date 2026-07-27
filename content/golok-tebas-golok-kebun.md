@@ -26,8 +26,10 @@ faq:
   - question: "Kenapa golok murah cepat gompal saat menebas?"
     answer: "Golok murah biasanya dari baja lunak hasil cetakan pabrik, bukan tempaan. Bajanya tidak diperlakukan panas dengan benar, jadi begitu menghantam bambu keras, mata bilahnya langsung penyok atau gompal. Golok tempa tangan dengan baja karbon yang tepat jauh lebih tahan."
 relatedPosts:
-  - "cara-memilih-golok-yang-bagus"
-  - "golok-tradisional-nusantara"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
+  - slug: "golok-tradisional-nusantara"
+    title: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
 ---
 
 Coba bayangkan sebentar. Pagi hari di pekarangan, ada rumpun bambu yang harus dirapikan. Anda ayunkan golok — dan bukannya putus bersih, bilahnya malah **nyangkut** di tengah batang. Anda tarik, ayun lagi, nyangkut lagi. Keringat mengucur, tangan pegal, dan bambunya masih berdiri mengejek.

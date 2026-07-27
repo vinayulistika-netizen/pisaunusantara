@@ -25,9 +25,12 @@ faq:
   - question: "Apakah golok tradisional ini masih dibuat sekarang?"
     answer: "Ya. Kami di Bandung masih menempa golok bergaya tradisional Nusantara dengan tangan, mengikuti pakem bentuk khas tiap daerah namun dengan mutu baja modern yang teruji. Jadi Anda mendapat karakter warisan sekaligus ketajaman dan ketahanan yang bisa diandalkan."
 relatedPosts:
-  - "golok-tradisional-nusantara"
-  - "cara-memilih-golok-yang-bagus"
-  - "model-golok-keren-unik"
+  - slug: "golok-tradisional-nusantara"
+    title: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
+  - slug: "model-golok-keren-unik"
+    title: "Model Golok Keren & Unik: Ciri Desain yang Membedakan"
 ---
 
 Setiap daerah di Nusantara punya golok-nya sendiri. Dan kalau Anda perhatikan baik-baik, tiap golok itu bukan cuma alat — dia menyimpan **cerita, karakter, bahkan kehormatan** daerah asalnya.

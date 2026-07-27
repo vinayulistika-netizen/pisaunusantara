@@ -25,9 +25,12 @@ faq:
   - question: "Kenapa gagang golok penting, bukan cuma bilahnya?"
     answer: "Karena gagang adalah bagian yang bersentuhan langsung dengan tangan Anda sepanjang pemakaian. Gagang yang buruk bikin tangan cepat lelah, lecet, bahkan berbahaya jika terlepas. Bilah setajam apa pun tidak berguna kalau gagangnya tidak nyaman dan tidak aman dipegang."
 relatedPosts:
-  - "cara-memilih-golok-yang-bagus"
-  - "model-golok-keren-unik"
-  - "golok-tradisional-nusantara"
+  - slug: "cara-memilih-golok-yang-bagus"
+    title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
+  - slug: "model-golok-keren-unik"
+    title: "Model Golok Keren & Unik: Ciri Desain yang Membedakan"
+  - slug: "golok-tradisional-nusantara"
+    title: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
 ---
 
 Coba perhatikan golok di tangan Anda sekarang. Mata kita hampir selalu tertuju ke **bilahnya** — mengkilap, tajam, gagah. Tapi ada satu bagian yang justru paling lama bersentuhan dengan tubuh Anda, yang menahan setiap ayunan, yang menentukan tangan Anda pegal atau tidak setelah sejam menebas: **gagangnya.**
