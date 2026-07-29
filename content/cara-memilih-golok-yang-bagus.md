@@ -40,6 +40,8 @@ faq:
 relatedPosts:
   - slug: "golok-tradisional-nusantara"
     title: "Golok Tradisional Nusantara: Ciomas, Cibatu, dan Sunda Buhun"
+  - slug: "golok-tradisional-betawi-patimura-sulangkar"
+    title: "Golok Betawi, Patimura & Sulangkar: Ciri Khas dan Sejarahnya"
   - slug: "tips-merawat-pisau-agar-tidak-berkarat"
     title: "7 Tips Merawat Pisau Agar Tidak Berkarat dan Tetap Tajam"
   - slug: "perbedaan-pisau-tactical-dan-pisau-survival"

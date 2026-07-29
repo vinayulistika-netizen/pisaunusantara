@@ -33,6 +33,8 @@ relatedPosts:
     title: "Cara Memilih Golok yang Bagus: 7 Tips dari Pengrajin Lokal"
   - slug: "golok-tradisional-nusantara"
     title: "Golok Tradisional Nusantara: Ciomas, Cibatu & Sunda Buhun"
+  - slug: "golok-tradisional-betawi-patimura-sulangkar"
+    title: "Golok Betawi, Patimura & Sulangkar: Ciri Khas dan Sejarahnya"
   - slug: "golok-tebas-golok-kebun"
     title: "Golok Tebas & Golok Kebun: Panduan Memilih Golok Penebas"
 ---
