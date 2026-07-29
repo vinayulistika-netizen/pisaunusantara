@@ -1,9 +1,11 @@
 import { getAllPosts } from '../lib/posts'
+import { products } from '../lib/products'
 
 const BASE_URL = 'https://pisaunusantara.com'
 
 export default function sitemap() {
   const posts = getAllPosts()
+  const productImages = products.map((p) => `${BASE_URL}/images/${p.img}.webp`)
 
   // `updated` = tanggal artikel terakhir diperbarui (isi hanya kalau memang ada
   // perubahan berarti). Kalau kosong, pakai tanggal terbit seperti semula.
@@ -20,6 +22,7 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
+      images: productImages,
     },
     {
       url: `${BASE_URL}/blog`,
